@@ -232,6 +232,18 @@ Ki chain, channel-19, [ki1evdj...0v](https://www.mintscan.io/ki-chain/account/ki
 
 ### _Kujira_ 
 
+Kujira, channel-0, [kujira1evdj...gxj](https://www.mintscan.io/kujira/account/kujira1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpkzgxj), Cosmos, channel-343, [cosmos16vmp...dcq](https://www.mintscan.io/cosmos/account/cosmos16vmp7sz28pnvgz6f3zm6q93y39jsd33a5v9dcq)
+
+Kujira, channel-1, [kujira1evdj...gxj](https://www.mintscan.io/kujira/account/kujira1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpkzgxj), Juno, channel-87, [juno16vmp...klu](https://www.mintscan.io/juno/account/juno16vmp7sz28pnvgz6f3zm6q93y39jsd33az7xklu)
+
+Kujira, channel-7, [kujira1evdj...gxj](https://www.mintscan.io/kujira/account/kujira1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpkzgxj), Stargaze, channel-49, [star1evdj...dqf](https://www.mintscan.io/stargaze/account/stars1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptyzhdqf)
+
+Kujira, channel-9, [kujira1evdj...gxj](https://www.mintscan.io/kujira/account/kujira1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpkzgxj), Axelar, channel-14, [axelar16vmp...9np](https://www.mintscan.io/axelar/account/axelar16vmp7sz28pnvgz6f3zm6q93y39jsd33aszn9np)
+
+Kujira, channel-21, [kujira1evdj...gxj](https://www.mintscan.io/kujira/account/kujira1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpkzgxj), E-money, channel-27, [emoney1evdj...yu9](https://www.mintscan.io/emoney/account/emoney1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptla6yu9)
+
+Kujira, channel-31, [kujira1evdj...gxj](https://www.mintscan.io/kujira/account/kujira1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpkzgxj), Juno, channel-97, [juno16vmp...klu](https://www.mintscan.io/juno/account/juno16vmp7sz28pnvgz6f3zm6q93y39jsd33az7xklu)
+
 ----------------
 
 ### _Lum_ 
