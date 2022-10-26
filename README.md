@@ -32,7 +32,7 @@ Inter Blockchain Service relayer infrastructure and supported chain
 | Source | Channel-id | Wallet | Destination | Channel-id | Wallet |
 | ------|-----|-----|-----|-----|-----|
 | Axelar | channel-2 | [axelar16vmp...9np](https://www.mintscan.io/axelar/account/axelar16vmp7sz28pnvgz6f3zm6q93y39jsd33aszn9np) | Cosmos Hub | channel-293 | [cosmos16vmp...dcq](https://www.mintscan.io/cosmos/account/cosmos16vmp7sz28pnvgz6f3zm6q93y39jsd33a5v9dcq) |
-| Axelar | channel-15 | [axelar1evdj...cqe](https://www.mintscan.io/axelar/account/axelar1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt5skcqe) | Bitcanna Chain | channel-32 | [bcna1evdj...3r2](https://www.mintscan.io/bitcanna/account/bcna1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt2ws3r2 |
+| Axelar | channel-15 | [axelar1evdj...cqe](https://www.mintscan.io/axelar/account/axelar1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt5skcqe) | Bitcanna Chain | channel-32 | [bcna1evdj...3r2](https://www.mintscan.io/bitcanna/account/bcna1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt2ws3r2) |
 | Axelar | channel-6 | [axelar16vmp...9np](https://www.mintscan.io/axelar/account/axelar16vmp7sz28pnvgz6f3zm6q93y39jsd33aszn9np) | E Money | channel-26 |  
 | Axelar | channel-21 | [axelar1evdj...cqe](https://www.mintscan.io/axelar/account/axelar1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt5skcqe) | Fetch AI | channel-14 |   
 | Axelar | channel-4 | [axelar16vmp...9np](https://www.mintscan.io/axelar/account/axelar16vmp7sz28pnvgz6f3zm6q93y39jsd33aszn9np) | Juno | channel-71 |  
