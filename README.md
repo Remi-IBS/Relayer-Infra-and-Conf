@@ -104,6 +104,10 @@ Cosmos, channel-343, [cosmos16vmp...dcq](https://www.mintscan.io/cosmos/account/
 
 ### _Decentr_ 
 
+Decentr, channel-1, [decentr1evdj...y2s](https://ping.pub/decentr/account/decentr1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptmsxy2s), Osmosis , channel-181, [osmo14uyf...zvw](https://www.mintscan.io/osmosis/account/osmo14uyfxlv00lj0qhcwt7vms2rsf7kxuld7umtzvw)
+
+Decentr, channel-2, [decentr1evdj...y2s](https://ping.pub/decentr/account/decentr1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptmsxy2s), Gravity Bridge , channel-58, [gravity14uyf...2l5](https://www.mintscan.io/gravity-bridge/account/gravity14uyfxlv00lj0qhcwt7vms2rsf7kxuld7ss22l5)
+
 ---------------- 
 
 ### _Desmos_ 
