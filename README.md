@@ -57,6 +57,16 @@ Band, channel-83, [band1evdj...jns](https://www.mintscan.io/band/account/band1ev
 
 ### _Bitcanna_ 
 
+Bitcanna, channel-1, [bcna1evdj...3r2](https://www.mintscan.io/bitcanna/account/bcna1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt2ws3r2), Osmosis, channel-51, [osmo1evdj...qa2](https://www.mintscan.io/osmosis/account/osmo1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptc9nqa2)
+
+Bitcanna, channel-3, [bcna1evdj...3r2](https://www.mintscan.io/bitcanna/account/bcna1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt2ws3r2), Cosmos , channel-232, [cosmo1evdj...stc](https://www.mintscan.io/cosmos/account/cosmos1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpts7qstc)
+
+Bitcanna, channel-8, [bcna1evdj...3r2](https://www.mintscan.io/bitcanna/account/bcna1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt2ws3r2), Gravity Bridge , channel-0, [gravity1evdj...gws](https://www.mintscan.io/gravity-bridge/account/gravity1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt5wjgws)
+
+Bitcanna, channel-10, [bcna1evdj...3r2](https://www.mintscan.io/bitcanna/account/bcna1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt2ws3r2), Juno , channel-50, [juno1evdj...tvy](https://www.mintscan.io/juno/account/juno1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptxvrtvy)
+
+Bitcanna, channel-15, [bcna1evdj...3r2](https://www.mintscan.io/bitcanna/account/bcna1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt2ws3r2), Axelar , channel-32, [axelar1evdj...cqe](https://www.mintscan.io/axelar/account/axelar1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt5skcqe)
+
 ---------------- 
 
 ### _Cosmos Hub_ 
