@@ -1,7 +1,14 @@
 # Relayers
-Inter Blockchain Service relayer infrastructure and supported chain
+We are runing three instance of hermes who support 22chain
 
-## Relaying chains  
+## Relayer conf
+
+[Relayer00]
+[Relayer01]
+[Relayer02]
+[Relayer03]
+
+## Supported chains  
 [Axelar](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#axelar)  
 [Band](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#band)  
 [Bitcanna](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#bitcanna)  
