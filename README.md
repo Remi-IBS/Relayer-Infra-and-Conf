@@ -10,7 +10,7 @@ Inter Blockchain Service relayer infrastructure and supported chain
 [Desmos](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#desmos)  
 [Emoney](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#emoney) 
 [Fetch](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#fetch)
-[Galaxy(https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#galaxy)
+[Galaxy](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#galaxy)
 [Gravity Bridge](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#gravity-bridge)  
 [Ixo](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#ixo)
 [Juno](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#juno)  
