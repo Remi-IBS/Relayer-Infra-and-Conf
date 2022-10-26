@@ -3,10 +3,10 @@ We are runing three instance of hermes who support 22chain
 
 ## Relayer conf
 
-[Relayer00]
-[Relayer01]
-[Relayer02]
-[Relayer03]
+[Relayer00](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/ConfigRelayer00.toml)  
+[Relayer01](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/ConfigRelayer01.toml)  
+[Relayer02](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/ConfigRelayer02.toml)  
+[Relayer03](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/ConfigRelayer03.toml)  
 
 ## Supported chains  
 [Axelar](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#axelar)  
