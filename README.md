@@ -28,8 +28,7 @@ Inter Blockchain Service relayer infrastructure and supported chain
 
 
 ### _Axelar_  
-
-Account: [axelar16vmp7sz28pnvgz6f3zm6q93y39jsd33aszn9np](https://www.mintscan.io/axelar/account/axelar16vmp7sz28pnvgz6f3zm6q93y39jsd33aszn9np)  
+ 
 | Source | Channel-id | Wallet | Destination | Channel-id | Wallet |
 | ------|-----|-----|-----|-----|-----|
 | Axelar | channel-2 | [axelar16vmp7sz28pnvgz6f3zm6q93y39jsd33aszn9np](https://www.mintscan.io/axelar/account/axelar16vmp7sz28pnvgz6f3zm6q93y39jsd33aszn9np) | Cosmos Hub | channel-293 | [axelar16vmp7sz28pnvgz6f3zm6q93y39jsd33aszn9np](https://www.mintscan.io/axelar/account/axelar16vmp7sz28pnvgz6f3zm6q93y39jsd33aszn9np) |
