@@ -31,7 +31,7 @@ We are runing Four instances of hermes which support 22 chains
 [Sifchain](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#sifchain)   
 [Stargaze](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#stargaze)  
 [Teritori](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#teritori)   
-[T Grade](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#t-grade)  
+ 
 
 
 ### _Axelar_  
@@ -54,3 +54,83 @@ Band, channel-12, [band1evdj...jns](https://www.mintscan.io/band/account/band1ev
 Band, channel-83, [band1evdj...jns](https://www.mintscan.io/band/account/band1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptf3qjns), Osmosis, channel-148, [osmo1tdl8...ej9](https://www.mintscan.io/osmosis/account/osmo1tdl8wlqx0w8laeqytxx9rphfcu7cm2cyqahej9)  
 
 ---------------- 
+
+### _Bitcanna_ 
+
+---------------- 
+
+### _Cosmos Hub_ 
+
+---------------- 
+
+### _Decentr_ 
+
+---------------- 
+
+### _Desmos_ 
+
+---------------- 
+
+### _Emoney_ 
+
+---------------- 
+
+### _Fetch_ 
+
+---------------- 
+
+### _Galaxy_ 
+
+---------------- 
+
+### _Gravity Bridge_ 
+
+---------------- 
+
+### _Ixo_ 
+
+---------------- 
+
+### _Juno_ 
+
+---------------- 
+
+### _Kava_ 
+
+---------------- 
+
+### _Ki Chain_ 
+
+---------------- 
+
+### _Kujira_ 
+
+----------------
+
+### _Lum_ 
+
+----------------
+
+### _Osmosis_ 
+
+----------------
+
+### _Provenance_ 
+
+----------------
+
+### _Rizon_ 
+
+----------------
+
+### _Sifchain_ 
+
+----------------
+
+### _Stargaze_ 
+
+----------------
+
+### _Teritori_ 
+
+----------------
