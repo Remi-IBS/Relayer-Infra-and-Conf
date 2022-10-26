@@ -216,6 +216,18 @@ Kava, channel-1, [kava1evdj...dal](https://www.mintscan.io/kava/account/kava1evd
 
 ### _Ki Chain_ 
 
+Ki chain, channel-0, [ki1evdj...0v](https://www.mintscan.io/ki-chain/account/ki1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpn3l0v), Osmosis, channel-77, [osmo1evdj...qa2](https://www.mintscan.io/osmosis/account/osmo1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptc9nqa2)
+
+Ki chain, channel-1, [ki1evdj...0v](https://www.mintscan.io/ki-chain/account/ki1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpn3l0v), Cosmos, channel-223, [cosmos1evdj...stc](https://www.mintscan.io/cosmos/account/cosmos1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpts7qstc)
+
+Ki chain, channel-7, [ki1evdj...0v](https://www.mintscan.io/ki-chain/account/ki1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpn3l0v), Sifchain, channel-40, [sif1evdj...xyn](https://www.mintscan.io/sifchain/account/sif1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt4r0xyn)
+
+Ki chain, channel-8, [ki1evdj...0v](https://www.mintscan.io/ki-chain/account/ki1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpn3l0v), Juno, channel-58, [juno1evdj...vy](https://www.mintscan.io/juno/account/juno1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptxvrtvy)
+
+Ki chain, channel-11, [ki1evdj...0v](https://www.mintscan.io/ki-chain/account/ki1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpn3l0v), Gravity Bridge, channel-37, [gravity1evdj...gws](https://www.mintscan.io/gravity-bridge/account/gravity1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt5wjgws)
+
+Ki chain, channel-19, [ki1evdj...0v](https://www.mintscan.io/ki-chain/account/ki1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpn3l0v), Axelar, channel-17, [axelar1evdj...cqe](https://www.mintscan.io/axelar/account/axelar1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt5skcqe)
+
 ---------------- 
 
 ### _Kujira_ 
