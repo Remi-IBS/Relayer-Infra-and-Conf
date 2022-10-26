@@ -1,5 +1,5 @@
 # Relayers
-We are runing three instance of hermes who support 22chain
+We are runing Four instances of hermes which support 22 chains
 
 ## Relayer conf
 
