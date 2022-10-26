@@ -170,6 +170,10 @@ Gravity Bridge, channel-83, [gravity16vmp...4ag](https://www.mintscan.io/gravity
 
 ### _Ixo_ 
 
+Ixo, channel-4, [ixo1evdj...z0t](https://www.mintscan.io/ixo/account/ixo1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt0t7z0t), Osmosis , channel-38, [osmo1...zvw](https://www.mintscan.io/osmosis/account/osmo14uyfxlv00lj0qhcwt7vms2rsf7kxuld7umtzvw)
+
+Ixo, channel-11, [ixo1evdj...z0t](https://www.mintscan.io/ixo/account/ixo1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt0t7z0t), Sifchain , channel-15, [sif14uyf...y4h](https://www.mintscan.io/sifchain/account/sif14uyfxlv00lj0qhcwt7vms2rsf7kxuld73ahy4h)
+
 ---------------- 
 
 ### _Juno_ 
