@@ -142,6 +142,8 @@ Fetch, channel-10, [fetch1evdj...5f0](https://www.mintscan.io/fetchai/account/fe
 
 ### _Galaxy_ 
 
+Galaxy, channel-0, [galaxy1evdj...sq2](https://explorer.postcapitalist.io/cosmos/account/galaxy1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptvpxsq2), Osmosis, channel-236, [osmo1tdl8...ej9](https://www.mintscan.io/osmosis/account/osmo1tdl8wlqx0w8laeqytxx9rphfcu7cm2cyqahej9)
+
 ---------------- 
 
 ### _Gravity Bridge_ 
