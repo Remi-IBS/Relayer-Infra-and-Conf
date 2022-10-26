@@ -180,11 +180,23 @@ Ixo, channel-11, [ixo1evdj...z0t](https://www.mintscan.io/ixo/account/ixo1evdjzy
 
 ### _Juno_ 
 
+Juno, channel-0, [juno1evdj...vy](https://www.mintscan.io/juno/account/juno1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptxvrtvy), Osmosis, channel-42, [osmo1evdj...qa2](https://www.mintscan.io/osmosis/account/osmo1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptc9nqa2)
+
+Juno, channel-1, [juno1evdj...vy](https://www.mintscan.io/juno/account/juno1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptxvrtvy), Cosmos, channel-207, [cosmos1evdj...stc](https://www.mintscan.io/cosmos/account/cosmos1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpts7qstc)
+
 Juno, channel-5, [juno16vmp...klu](https://www.mintscan.io/juno/account/juno16vmp7sz28pnvgz6f3zm6q93y39jsd33az7xklu), Sifchain , channel-14, [sif16vmp...mht](https://www.mintscan.io/sifchain/account/sif16vmp7sz28pnvgz6f3zm6q93y39jsd33a332mht)
 
 Juno, channel-9, [juno16vmp...klu](https://www.mintscan.io/juno/account/juno16vmp7sz28pnvgz6f3zm6q93y39jsd33az7xklu), E-Money , channel-15, [emoney1evdj...yu9](https://www.mintscan.io/emoney/account/emoney1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptla6yu9)
 
 Juno, channel-20, [juno16vmp...klu](https://www.mintscan.io/juno/account/juno16vmp7sz28pnvgz6f3zm6q93y39jsd33az7xklu), Stargaze , channel-5, [stars1evdj...dqf](https://www.mintscan.io/stargaze/account/stars1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptyzhdqf)
+
+Juno, channel-31, [juno1evdj...vy](https://www.mintscan.io/juno/account/juno1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptxvrtvy), Gravity Bridge, channel-8, [gravity1evdj...gws](https://www.mintscan.io/gravity-bridge/account/gravity1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt5wjgws)
+
+Juno, channel-47, [juno1evdj...vy](https://www.mintscan.io/juno/account/juno1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptxvrtvy), Osmosis, channel-169, [osmo1evdj...qa2](https://www.mintscan.io/osmosis/account/osmo1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptc9nqa2), CW20
+
+Juno, channel-50, [juno1evdj...vy](https://www.mintscan.io/juno/account/juno1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptxvrtvy), Juno , channel-50, [juno1evdj...tvy](https://www.mintscan.io/juno/account/juno1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptxvrtvy)
+
+Juno, channel-58, [juno1evdj...vy](https://www.mintscan.io/juno/account/juno1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptxvrtvy), Ki, channel-8, [ki1evdj...l0v](https://www.mintscan.io/ki-chain/account/ki1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpn3l0v)
 
 Juno, channel-71, [juno16vmp...klu](https://www.mintscan.io/juno/account/juno16vmp7sz28pnvgz6f3zm6q93y39jsd33az7xklu), Axelar , channel-4, [axelar16vmp...9np](https://www.mintscan.io/axelar/account/axelar16vmp7sz28pnvgz6f3zm6q93y39jsd33aszn9np)
 
