@@ -134,6 +134,10 @@ E-Money, channel-27, [emoney1evdj...yu9](https://www.mintscan.io/emoney/account/
 
 ### _Fetch_ 
 
+Fetch, channel-10, [fetch1evdj...5f0](https://www.mintscan.io/fetchai/account/fetch1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptrrf5f0), Osmosis , channel-229, [osmo1evdj...qa2](https://www.mintscan.io/osmosis/account/osmo1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptc9nqa2)
+
+Fetch, channel-10, [fetch1evdj...5f0](https://www.mintscan.io/fetchai/account/fetch1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptrrf5f0), Axelar , channel-21, [axelar1evdj...cqe](https://www.mintscan.io/axelar/account/axelar1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt5skcqe)
+
 ---------------- 
 
 ### _Galaxy_ 
@@ -141,6 +145,26 @@ E-Money, channel-27, [emoney1evdj...yu9](https://www.mintscan.io/emoney/account/
 ---------------- 
 
 ### _Gravity Bridge_ 
+
+Gravity Bridge, channel-0, [gravity1evdj...gws](https://www.mintscan.io/gravity-bridge/account/gravity1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt5wjgws), Bitcanna , channel-8, [bcna1evdj...3r2](https://www.mintscan.io/bitcanna/account/bcna1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt2ws3r2)
+
+Gravity Bridge, channel-7, [gravity14uyf...2l5](https://www.mintscan.io/gravity-bridge/account/gravity14uyfxlv00lj0qhcwt7vms2rsf7kxuld7ss22l5), Stargaze , channel-6, [stars14uyf...03d](https://www.mintscan.io/stargaze/account/stars14uyfxlv00lj0qhcwt7vms2rsf7kxuld7qu003d)
+
+Gravity Bridge, channel-8, [gravity1evdj...gws](https://www.mintscan.io/gravity-bridge/account/gravity1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt5wjgws), Juno , channel-31, [juno1evdj...tvy](https://www.mintscan.io/juno/account/juno1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptxvrtvy)
+
+Gravity Bridge, channel-10, [gravity16vmp...4ag](https://www.mintscan.io/gravity-bridge/account/gravity16vmp7sz28pnvgz6f3zm6q93y39jsd33asuh4ag), Osmosis , channel-144, [osmo1tdl8...ej9](https://www.mintscan.io/osmosis/account/osmo1tdl8wlqx0w8laeqytxx9rphfcu7cm2cyqahej9)
+
+Gravity Bridge, channel-17, [gravity14uyf...2l5](https://www.mintscan.io/gravity-bridge/account/gravity14uyfxlv00lj0qhcwt7vms2rsf7kxuld7ss22l5), Cosmos , channel-281, [cosmos14uyf...j6u](https://www.mintscan.io/cosmos/account/cosmos14uyfxlv00lj0qhcwt7vms2rsf7kxuld75qcj6u)
+
+Gravity Bridge, channel-37, [gravity1evdj...gws](https://www.mintscan.io/gravity-bridge/account/gravity1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt5wjgws), Ki Chain , channel-11, [ki1evdj...l0v](https://www.mintscan.io/ki-chain/account/ki1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpn3l0v)
+
+Gravity Bridge, channel-53, [gravity16vmp...4ag](https://www.mintscan.io/gravity-bridge/account/gravity16vmp7sz28pnvgz6f3zm6q93y39jsd33asuh4ag), Rizon , channel-4, [rizon1evdj...p8q](https://www.mintscan.io/rizon/account/rizon1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptnrup8q)
+
+Gravity Bridge, channel-58, [gravity14uyf...2l5](https://www.mintscan.io/gravity-bridge/account/gravity14uyfxlv00lj0qhcwt7vms2rsf7kxuld7ss22l5), Decentr , channel-2, [decentr1evdj...y2s](https://ping.pub/decentr/account/decentr1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptmsxy2s)
+
+Gravity Bridge, channel-66, [gravity14uyf...2l5](https://www.mintscan.io/gravity-bridge/account/gravity14uyfxlv00lj0qhcwt7vms2rsf7kxuld7ss22l5), Sifchain , channel-60, [sif14uyf...y4h](https://www.mintscan.io/sifchain/account/sif14uyfxlv00lj0qhcwt7vms2rsf7kxuld73ahy4h)
+
+Gravity Bridge, channel-83, [gravity16vmp...4ag](https://www.mintscan.io/gravity-bridge/account/gravity16vmp7sz28pnvgz6f3zm6q93y39jsd33asuh4ag), Kujira , channel-11, [kujira14uyf...2hk](https://www.mintscan.io/kujira/account/kujira14uyfxlv00lj0qhcwt7vms2rsf7kxuld79g62hk)
 
 ---------------- 
 
