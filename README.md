@@ -250,11 +250,13 @@ Kujira, channel-21, [kujira1evdj...gxj](https://www.mintscan.io/kujira/account/k
 
 Kujira, channel-31, [kujira1evdj...gxj](https://www.mintscan.io/kujira/account/kujira1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpkzgxj), Juno, channel-97, [juno16vmp...klu](https://www.mintscan.io/juno/account/juno16vmp7sz28pnvgz6f3zm6q93y39jsd33az7xklu)
 
-
-
 ----------------
 
 ### _Lum_ 
+
+Lum, channel-3, [lum1evdj...e7v](https://www.mintscan.io/lum/account/lum1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt95ae7v), Osmosis , channel-97, [juno16vmp...klu](https://www.mintscan.io/juno/account/juno16vmp7sz28pnvgz6f3zm6q93y39jsd33az7xklu)
+
+Lum, channel-7, [lum1evdj...e7v](https://www.mintscan.io/lum/account/lum1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt95ae7v), Kujira , channel-19, [kujira14uyf...2hk](https://www.mintscan.io/kujira/account/kujira14uyfxlv00lj0qhcwt7vms2rsf7kxuld79g62hk)
 
 ----------------
 
