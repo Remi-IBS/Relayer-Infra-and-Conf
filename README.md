@@ -236,13 +236,21 @@ Kujira, channel-0, [kujira1evdj...gxj](https://www.mintscan.io/kujira/account/ku
 
 Kujira, channel-1, [kujira1evdj...gxj](https://www.mintscan.io/kujira/account/kujira1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpkzgxj), Juno, channel-87, [juno16vmp...klu](https://www.mintscan.io/juno/account/juno16vmp7sz28pnvgz6f3zm6q93y39jsd33az7xklu)
 
+Kujira, channel-3, [kujira14uyf...2hk](https://www.mintscan.io/kujira/account/kujira14uyfxlv00lj0qhcwt7vms2rsf7kxuld79g62hk), Osmosis, channel-259, [osmo1tdl8...ej9](https://www.mintscan.io/osmosis/account/osmo1tdl8wlqx0w8laeqytxx9rphfcu7cm2cyqahej9)
+
 Kujira, channel-7, [kujira1evdj...gxj](https://www.mintscan.io/kujira/account/kujira1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpkzgxj), Stargaze, channel-49, [star1evdj...dqf](https://www.mintscan.io/stargaze/account/stars1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptyzhdqf)
 
 Kujira, channel-9, [kujira1evdj...gxj](https://www.mintscan.io/kujira/account/kujira1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpkzgxj), Axelar, channel-14, [axelar16vmp...9np](https://www.mintscan.io/axelar/account/axelar16vmp7sz28pnvgz6f3zm6q93y39jsd33aszn9np)
 
+Kujira, channel-11, [kujira14uyf...2hk](https://www.mintscan.io/kujira/account/kujira14uyfxlv00lj0qhcwt7vms2rsf7kxuld79g62hk), Gravity Bridge, channel-83, [gravity16vpm...4ag](https://www.mintscan.io/gravity-bridge/account/gravity16vmp7sz28pnvgz6f3zm6q93y39jsd33asuh4ag)
+
+Kujira, channel-19, [kujira14uyf...2hk](https://www.mintscan.io/kujira/account/kujira14uyfxlv00lj0qhcwt7vms2rsf7kxuld79g62hk), Lum, channel-7, [lum1evdj...e7v](https://www.mintscan.io/lum/account/lum1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt95ae7v)
+
 Kujira, channel-21, [kujira1evdj...gxj](https://www.mintscan.io/kujira/account/kujira1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpkzgxj), E-money, channel-27, [emoney1evdj...yu9](https://www.mintscan.io/emoney/account/emoney1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptla6yu9)
 
 Kujira, channel-31, [kujira1evdj...gxj](https://www.mintscan.io/kujira/account/kujira1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpkzgxj), Juno, channel-97, [juno16vmp...klu](https://www.mintscan.io/juno/account/juno16vmp7sz28pnvgz6f3zm6q93y39jsd33az7xklu)
+
+
 
 ----------------
 
