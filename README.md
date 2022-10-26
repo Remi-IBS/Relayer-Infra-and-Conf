@@ -84,13 +84,13 @@ Cosmos, channel-141, [cosmos14uyf...j6u](https://www.mintscan.io/cosmos/account/
 
 Cosmos, channel-192, [cosmos14uyf...j6u](https://www.mintscan.io/cosmos/account/cosmos14uyfxlv00lj0qhcwt7vms2rsf7kxuld75qcj6u), Sifchain , channel-0, [sif14uyf...y4h](https://www.mintscan.io/sifchain/account/sif14uyfxlv00lj0qhcwt7vms2rsf7kxuld73ahy4h)
 
-Cosmos, channel-207, [cosmos1evdj...dcq](https://www.mintscan.io/cosmos/account/cosmos1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpts7qstc), Juno , channel-1, [juno1evdj...9np](https://www.mintscan.io/juno/account/juno1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptxvrtvy)
+Cosmos, channel-207, [cosmos1evdj...stc](https://www.mintscan.io/cosmos/account/cosmos1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpts7qstc), Juno , channel-1, [juno1evdj...9np](https://www.mintscan.io/juno/account/juno1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptxvrtvy)
 
-Cosmos, channel-223, [cosmos1evdj...dcq](https://www.mintscan.io/cosmos/account/cosmos1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpts7qstc), Ki Chain , channel-1, [ki1evdj...l0v](https://www.mintscan.io/ki-chain/account/ki1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpn3l0v)
+Cosmos, channel-223, [cosmos1evdj...stc](https://www.mintscan.io/cosmos/account/cosmos1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpts7qstc), Ki Chain , channel-1, [ki1evdj...l0v](https://www.mintscan.io/ki-chain/account/ki1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpn3l0v)
 
-Cosmos, channel-232, [cosmos16evdj...dcq](https://www.mintscan.io/cosmos/account/cosmos1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpts7qstc), Bitcanna , channel-3, [bcna1evdj...3r2](https://www.mintscan.io/bitcanna/account/bcna1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt2ws3r2)
+Cosmos, channel-232, [cosmos1evdj...stc](https://www.mintscan.io/cosmos/account/cosmos1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpts7qstc), Bitcanna , channel-3, [bcna1evdj...3r2](https://www.mintscan.io/bitcanna/account/bcna1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt2ws3r2)
 
-Cosmos, channel-277, [cosmos16evdj...dcq](https://www.mintscan.io/cosmos/account/cosmos1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpts7qstc), Kava , channel-0, [kava1evdj...9np](https://www.mintscan.io/kava/account/kava1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptvt5dal)
+Cosmos, channel-277, [cosmos1evdj...stc](https://www.mintscan.io/cosmos/account/cosmos1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpts7qstc), Kava , channel-0, [kava1evdj...9np](https://www.mintscan.io/kava/account/kava1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptvt5dal)
 
 Cosmos, channel-281, [cosmos14uyf...j6u](https://www.mintscan.io/cosmos/account/cosmos14uyfxlv00lj0qhcwt7vms2rsf7kxuld75qcj6u), Gravity Bridge , channel-17, [gravity14uyf...2l5](https://www.mintscan.io/gravity-bridge/account/gravity14uyfxlv00lj0qhcwt7vms2rsf7kxuld7ss22l5)
 
