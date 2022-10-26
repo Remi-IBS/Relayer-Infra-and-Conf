@@ -120,6 +120,16 @@ Desmos, channel-2, [desmos1evdj...quq](https://www.mintscan.io/desmos/account/de
 
 ### _Emoney_ 
 
+E-Money, channel-0, [emoney1evdj...yu9](https://www.mintscan.io/emoney/account/emoney1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptla6yu9), Osmosis , channel-37, [osmo116vmp...awj](https://www.mintscan.io/osmosis/account/osmo16vmp7sz28pnvgz6f3zm6q93y39jsd33auhkawj)
+
+E-Money, channel-14, [emoney1evdj...yu9](https://www.mintscan.io/emoney/account/emoney1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptla6yu9), Sifchain , channel-19, [sif16vmp...mht](https://www.mintscan.io/sifchain/account/sif16vmp7sz28pnvgz6f3zm6q93y39jsd33a332mht)
+
+E-Money, channel-15, [emoney1evdj...yu9](https://www.mintscan.io/emoney/account/emoney1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptla6yu9), Juno , channel-9, [juno16vmp...klu](https://www.mintscan.io/juno/account/juno16vmp7sz28pnvgz6f3zm6q93y39jsd33az7xklu)
+
+E-Money, channel-26, [emoney1evdj...yu9](https://www.mintscan.io/emoney/account/emoney1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptla6yu9), Axelar , channel-6, [axelar16vmp...9np](https://www.mintscan.io/axelar/account/axelar16vmp7sz28pnvgz6f3zm6q93y39jsd33aszn9np)
+
+E-Money, channel-27, [emoney1evdj...yu9](https://www.mintscan.io/emoney/account/emoney1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptla6yu9), Kujira , channel-21, [kujira1...gxj](https://www.mintscan.io/kujira/account/kujira1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpkzgxj)
+
 ---------------- 
 
 ### _Fetch_ 
