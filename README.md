@@ -35,7 +35,7 @@ Axelar; channel-6; [axelar16vmp...9np](https://www.mintscan.io/axelar/account/ax
 Axelar; channel-21; [axelar1evdj...cqe](https://www.mintscan.io/axelar/account/axelar1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt5skcqe); Fetch AI; channel-14;   
 Axelar; channel-4; [axelar16vmp...9np](https://www.mintscan.io/axelar/account/axelar16vmp7sz28pnvgz6f3zm6q93y39jsd33aszn9np); Juno; channel-71;  
 Axelar; channel-14; [axelar16vmp...9np](https://www.mintscan.io/axelar/account/axelar16vmp7sz28pnvgz6f3zm6q93y39jsd33aszn9np); Kujira; channel-9;  
-Axelar; channel-17; [axelar1evdj...cqe](https://www.mintscan.io/axelar/account/axelar1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt5skcqe); Ki Chain; channel-19; 
+Axelar; channel-17; [axelar1evdj...cqe](https://www.mintscan.io/axelar/account/axelar1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt5skcqe); Ki Chain; channel-19;  
 Axelar; channel-3; [axelar16vmp...9np](https://www.mintscan.io/axelar/account/axelar16vmp7sz28pnvgz6f3zm6q93y39jsd33aszn9np); Osmosis; channel-208;  
 Axelar; channel-18; [axelar16vmp...9np](https://www.mintscan.io/axelar/account/axelar16vmp7sz28pnvgz6f3zm6q93y39jsd33aszn9np); Stargaze; channel-50;  
 
