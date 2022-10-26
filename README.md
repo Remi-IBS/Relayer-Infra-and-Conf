@@ -112,7 +112,7 @@ Decentr, channel-2, [decentr1evdj...y2s](https://ping.pub/decentr/account/decent
 
 ### _Desmos_ 
 
-Desmos, channel-1, [desmos1evdj...quq](https://www.mintscan.io/desmos/account/desmos1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptyxdquq), Band , channel-12, [band1evdj...jns](https://www.mintscan.io/band/account/band1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptf3qjns)
+Desmos, channel-1, [desmos1evdj...quq](https://www.mintscan.io/desmos/account/desmos1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptyxdquq), Band , channel-12, [band1evdj...jns](https://www.mintscan.io/band/account/band1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptf3qjns), oracle
 
 Desmos, channel-2, [desmos1evdj...quq](https://www.mintscan.io/desmos/account/desmos1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptyxdquq), Osmosis , channel-12, [osmo1tdl8...ej9](https://www.mintscan.io/osmosis/account/osmo1tdl8wlqx0w8laeqytxx9rphfcu7cm2cyqahej9)
 
