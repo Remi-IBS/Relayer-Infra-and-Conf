@@ -208,6 +208,10 @@ Juno, channel-97, [juno16vmp...klu](https://www.mintscan.io/juno/account/juno16v
 
 ### _Kava_ 
 
+Kava, channel-0, [kava1evdj...dal](https://www.mintscan.io/kava/account/kava1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptvt5dal), Cosmos, channel-277, [cosmos1evdj...stc](https://www.mintscan.io/cosmos/account/cosmos1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpts7qstc)
+
+Kava, channel-1, [kava1evdj...dal](https://www.mintscan.io/kava/account/kava1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptvt5dal), Osmosis, channel-143, [osmo1evdj...qa2](https://www.mintscan.io/osmosis/account/osmo1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptc9nqa2)
+
 ---------------- 
 
 ### _Ki Chain_ 
