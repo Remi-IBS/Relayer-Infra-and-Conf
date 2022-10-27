@@ -344,8 +344,22 @@ Sifchain , channel-60, [sif14uyf...y4h](https://www.mintscan.io/sifchain/account
 
 ### _Stargaze_ 
 
+Stargaze , channel-0, [star1evdj...dqf](https://www.mintscan.io/stargaze/account/stars1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptyzhdqf), Osmosis , channel-75, [osmo16vmp...awj](https://www.mintscan.io/osmosis/account/osmo16vmp7sz28pnvgz6f3zm6q93y39jsd33auhkawj)
+
+Stargaze , channel-5, [stars1evdj...dqf](https://www.mintscan.io/stargaze/account/stars1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptyzhdqf), Juno, channel-20, [juno16vmp...klu](https://www.mintscan.io/juno/account/juno16vmp7sz28pnvgz6f3zm6q93y39jsd33az7xklu), 
+
+Stargaze , channel-6, [stars14uyf...03d](https://www.mintscan.io/stargaze/account/stars14uyfxlv00lj0qhcwt7vms2rsf7kxuld7qu003d), Gravity Bridge, channel-7, [gravity14uyf...2l5](https://www.mintscan.io/gravity-bridge/account/gravity14uyfxlv00lj0qhcwt7vms2rsf7kxuld7ss22l5)
+
+Stargaze, channel-45, [stars14uyfxl...03d](https://www.mintscan.io/stargaze/account/stars14uyfxlv00lj0qhcwt7vms2rsf7kxuld7qu003d), Sifchain , channel-71, [sif16vmp...mht](https://www.mintscan.io/sifchain/account/sif16vmp7sz28pnvgz6f3zm6q93y39jsd33a332mht)
+
+Stargaze, channel-49, [star1evdj...dqf](https://www.mintscan.io/stargaze/account/stars1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptyzhdqf), Kujira, channel-7, [kujira1evdj...gxj](https://www.mintscan.io/kujira/account/kujira1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpkzgxj)
+
+Stargaze, channel-50, [stars1evdj...dqf](https://www.mintscan.io/stargaze/account/stars1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptyzhdqf), Axelar, channel-18, [axelar16vmp...9np](https://www.mintscan.io/axelar/account/axelar16vmp7sz28pnvgz6f3zm6q93y39jsd33aszn9np)
+
 ----------------
 
 ### _Teritori_ 
+
+Teritori , channel-0, [tori1evdj...esg...2hk](https://teritori.explorers.guru/account/tori1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptj2hesg), Osmosis , channel-362, [osmo1tdl8...ej9](https://www.mintscan.io/osmosis/account/osmo1tdl8wlqx0w8laeqytxx9rphfcu7cm2cyqahej9)
 
 ----------------
