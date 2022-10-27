@@ -42,7 +42,7 @@ One AMD Ryzen 9 5900X @ 3,7 Ghz, 128GB ECC RAM, 1 X ASUS Hyper M.2 X16 PCIe 3.0,
 [Stargaze](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#stargaze)  
 [Teritori](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#teritori)   
  
-
+----------------
 
 ### _Axelar_  
  
