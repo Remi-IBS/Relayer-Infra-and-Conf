@@ -2,7 +2,7 @@
 
 Our relayer infra is selfhosted with gigabyte fibre connection. We are runing Four instances of hermes which support 22 chains. Our RPC is on three baremetal server. You will find in this repositori a description of our servers, the conf of our relayers and the set of channels that we support
 
-##Server
+## Server
 
 One Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz, 96GB ECC RAM, 2X1TB + 1X2TB M2 Nvme for RPC, 4X1TB SSD for services  
 
