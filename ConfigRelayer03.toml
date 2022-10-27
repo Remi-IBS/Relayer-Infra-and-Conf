@@ -114,8 +114,7 @@ memo_prefix = 'Inter Blockchain Services (former 3Tekos) Relayer'
 [chains.packet_filter]
 policy = 'allow'
 list = [
-   ['transfer', 'channel-7'], # Stargaze
-#   ['transfer', 'channel-10'], # Osmosis
+   ['transfer', 'channel-10'], # Osmosis
    ['transfer', 'channel-53'], # Rizon
    ['transfer', 'channel-83'], # Kujira
 ]
@@ -194,7 +193,7 @@ memo_prefix = 'Inter Blockchain Services (former 3Tekos) Relayer'
    ['transfer', 'channel-144'], # Gravity
    ['transfer', 'channel-148'], # Band
    ['transfer', 'channel-221'], # Rizon
-   ['transfer', 'channel-236'], # Galaxy
+#   ['transfer', 'channel-236'], # Galaxy
    ['transfer', 'channel-259'], # Kujira
    ['transfer', 'channel-362'], # teritori
  ]

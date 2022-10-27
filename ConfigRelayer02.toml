@@ -46,6 +46,7 @@ memo_prefix = 'Inter Blockchain Services (former 3Tekos) Relayer'
 [chains.packet_filter]
 policy = 'allow'
 list = [
+  ['transfer', 'channel-141'], # Osmo
   ['transfer', 'channel-192'], # Sifchain
   ['transfer', 'channel-281'], # Gravity
   ['transfer', 'channel-314'], # Provenance
@@ -93,10 +94,9 @@ memo_prefix = 'Inter Blockchain Services (former 3Tekos) Relayer'
 [chains.packet_filter]
 policy = 'allow'
 list = [
+   ['transfer', 'channel-7'], # Stargaze
    ['transfer', 'channel-17'], # Cosmos
- # FROZEN  ['transfer', 'channel-26'], # Impacthub
    ['transfer', 'channel-58'], # Decentr
-  #FROZEN ['transfer', 'channel-61'], # Fetch
    ['transfer', 'channel-66'], # Sifchain
 ]
 
@@ -121,7 +121,6 @@ memo_prefix = 'Inter Blockchain Services (former 3Tekos) Relayer'
  list = [
    ['transfer', 'channel-4'], # Osmosis
    ['transfer', 'channel-11'], # Sifchain
- #FROZEN  ['transfer', 'channel-16'], # Gravity
 ]
 
 [[chains]]
@@ -145,6 +144,7 @@ memo_prefix = 'Inter Blockchain Services (former 3Tekos) Relayer'
 [chains.packet_filter]
  policy = 'allow'
  list = [
+   ['transfer', 'channel-0'], # Cosmo
    ['transfer', 'channel-38'], # Ixo
    ['transfer', 'channel-47'], # Sifchain
    ['transfer', 'channel-181'], # Decentr

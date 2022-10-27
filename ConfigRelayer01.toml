@@ -96,7 +96,8 @@ memo_prefix = 'Inter Blockchain Services (former 3Tekos) Relayer'
 [chains.packet_filter]
 policy = 'allow'
 list = [
-  ['transfer', 'channel-223'], # Kujira
+  ['transfer', 'channel-207'], # Juno
+  ['transfer', 'channel-223'], # Kichain
   ['transfer', 'channel-232'], # Bitcanna
   ['transfer', 'channel-277'], # Kava
 ]
@@ -123,7 +124,6 @@ memo_prefix = 'Inter Blockchain Services (former 3Tekos) Relayer'
  list = [
    ['transfer', 'channel-10'], # Osmosis
    ['transfer', 'channel-14'], # Axelar
- #FROZEN  ['transfer', 'channel-13'],  # Gravity
 ]
 
 
@@ -162,7 +162,7 @@ key_name = 'juno'
 store_prefix = 'ibc'
 max_tx_size = 180000
 max_gas = 2000000
-gas_price = { price = 0.025, denom = 'ujuno' }
+gas_price = { price = 0.0025, denom = 'ujuno' }
 gas_multiplier = 1.2
 clock_drift = '895s'
 trusting_period = '20days'
@@ -171,9 +171,12 @@ memo_prefix = 'Inter Blockchain Services (former 3Tekos) Relayer'
 [chains.packet_filter]
  policy = 'allow'
  list = [
+   ['transfer', 'channel-0'], # Osmo
+   ['transfer', 'channel-1'], # Cosmos
    ['transfer', 'channel-31'], # Gravity
    ['transfer', 'channel-50'], # Bitcanna
    ['transfer', 'channel-58'], # Kichain
+   ['wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn', 'channel-47'], # Osmosis-CW20
 ]
 
 [[chains]]
@@ -252,6 +255,7 @@ memo_prefix = 'Inter Blockchain Services (former 3Tekos) Relayer'
    ['transfer', 'channel-51'], # bitcanna
    ['transfer', 'channel-77'], # kichain
    ['transfer', 'channel-143'], # kava
+   ['transfer', 'channel-169'], # Juno CW20
    ['transfer', 'channel-229'], # Fetch
 ]
 

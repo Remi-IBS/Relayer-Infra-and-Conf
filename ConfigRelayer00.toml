@@ -155,9 +155,10 @@ memo_prefix = 'Inter Blockchain Services (former 3Tekos) Relayer'
    ['transfer', 'channel-0'], # Cosmos-Hub
    ['transfer', 'channel-1'], # Juno
    ['transfer', 'channel-9'], # Axelar
-   ['transfer', 'channel-20'], # Stargaze
    ['transfer', 'channel-21'], # Emoney
    ['transfer', 'channel-31'], # junocw20
+   ['transfer', 'channel-49'], # Stargaze
+
 ]
 
 [[chains]]
@@ -228,7 +229,8 @@ memo_prefix = 'Inter Blockchain Services (former 3Tekos) Relayer'
  policy = 'allow'
  list = [
    ['transfer', 'channel-0'], # Osmosis
-   ['transfer', 'channel-12'], # Sifchain
    ['transfer', 'channel-5'], # Juno
+   ['transfer', 'channel-49'], # Kaiyo
    ['transfer', 'channel-50'], # Axelar
+
  ]
