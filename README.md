@@ -1,6 +1,6 @@
 # Relayers
 
-Our relayer infra is selfhosted with gigabyte fiber connection. We are running four instances of hermes which support 22 chains. Our RPC are host on three baremetal servers. You will find in this repository a description of our servers, the conf of our relayers and the set of channels that we support :
+Our relayer infra is selfhosted with gigabyte fiber connection. We are running four instances of hermes which support 22 chains. Our RPC are host on three baremetal servers. You will find in this repository a description of our servers, the conf of our relayers and the set of channels that we support.
 
 ## Server
 
