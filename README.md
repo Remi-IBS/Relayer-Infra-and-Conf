@@ -298,6 +298,8 @@ Osmosis , channel-222, [osmo14uyf...zvw](https://www.mintscan.io/osmosis/account
 
 Osmosis , channel-229, [osmo1evdj...qa2](https://www.mintscan.io/osmosis/account/osmo1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptc9nqa2), Fetch , channel-10, [fetch1evdj...5f0](https://www.mintscan.io/fetchai/account/fetch1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptrrf5f0)
 
+Osmosis, channel-236, [osmo1tdl8...ej9](https://www.mintscan.io/osmosis/account/osmo1tdl8wlqx0w8laeqytxx9rphfcu7cm2cyqahej9), Galaxy, channel-0, [galaxy1evdj...sq2](https://explorer.postcapitalist.io/cosmos/account/galaxy1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptvpxsq2)
+
 Osmosis , channel-259, [osmo1tdl8...ej9](https://www.mintscan.io/osmosis/account/osmo1tdl8wlqx0w8laeqytxx9rphfcu7cm2cyqahej9), Kujira , channel-3, [kujira14uyf...2hk](https://www.mintscan.io/kujira/account/kujira14uyfxlv00lj0qhcwt7vms2rsf7kxuld79g62hk)
 
 Osmosis , channel-362, [osmo1tdl8...ej9](https://www.mintscan.io/osmosis/account/osmo1tdl8wlqx0w8laeqytxx9rphfcu7cm2cyqahej9), Teritori , channel-0, [tori1evdj...esg...2hk](https://teritori.explorers.guru/account/tori1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptj2hesg)
@@ -306,9 +308,17 @@ Osmosis , channel-362, [osmo1tdl8...ej9](https://www.mintscan.io/osmosis/account
 
 ### _Provenance_ 
 
+Provenance , channel-7, [pb16vmp...g4u](https://www.mintscan.io/provenance/account/pb16vmp7sz28pnvgz6f3zm6q93y39jsd33aazwg4u), Osmosis , channel-222, [osmo14uyf...zvw](https://www.mintscan.io/osmosis/account/osmo14uyfxlv00lj0qhcwt7vms2rsf7kxuld7umtzvw)
+
+Provenance , channel-6, [pb16vmp...g4u](https://www.mintscan.io/provenance/account/pb16vmp7sz28pnvgz6f3zm6q93y39jsd33aazwg4u), Cosmos, channel-314, [cosmos14uyf...j6u](https://www.mintscan.io/cosmos/account/cosmos14uyfxlv00lj0qhcwt7vms2rsf7kxuld75qcj6u)
+
 ----------------
 
 ### _Rizon_ 
+
+Rizon , channel-1, [rizon1evdj...p8q](https://www.mintscan.io/rizon/account/rizon1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptnrup8q), Osmosis , channel-221, [osmo1tdl8...ej9](https://www.mintscan.io/osmosis/account/osmo1tdl8wlqx0w8laeqytxx9rphfcu7cm2cyqahej9)
+
+Rizon , channel-4, [rizon1evdj...p8q](https://www.mintscan.io/rizon/account/rizon1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptnrup8q), Gravity Bridge, channel-53, [gravity16vmp...4ag](https://www.mintscan.io/gravity-bridge/account/gravity16vmp7sz28pnvgz6f3zm6q93y39jsd33asuh4ag)
 
 ----------------
 
