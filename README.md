@@ -324,6 +324,22 @@ Rizon , channel-4, [rizon1evdj...p8q](https://www.mintscan.io/rizon/account/rizo
 
 ### _Sifchain_ 
 
+Sifchain , channel-0, [sif14uyf...y4h](https://www.mintscan.io/sifchain/account/sif14uyfxlv00lj0qhcwt7vms2rsf7kxuld73ahy4h), Cosmos, channel-192, [cosmos14uyf...j6u](https://www.mintscan.io/cosmos/account/cosmos14uyfxlv00lj0qhcwt7vms2rsf7kxuld75qcj6u)
+
+Sifchain , channel-14, [sif16vmp...mht](https://www.mintscan.io/sifchain/account/sif16vmp7sz28pnvgz6f3zm6q93y39jsd33a332mht), Juno, channel-5, [juno16vmp...klu](https://www.mintscan.io/juno/account/juno16vmp7sz28pnvgz6f3zm6q93y39jsd33az7xklu)
+
+Sifchain , channel-15, [sif14uyf...y4h](https://www.mintscan.io/sifchain/account/sif14uyfxlv00lj0qhcwt7vms2rsf7kxuld73ahy4h), Ixo, channel-11, [ixo1evdj...z0t](https://www.mintscan.io/ixo/account/ixo1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt0t7z0t)
+
+Sifchain , channel-4, [sif14uyf...y4h](https://www.mintscan.io/sifchain/account/sif14uyfxlv00lj0qhcwt7vms2rsf7kxuld73ahy4h), Osmosis , channel-47, [osmo14uyf...zvw](https://www.mintscan.io/osmosis/account/osmo14uyfxlv00lj0qhcwt7vms2rsf7kxuld7umtzvw)
+
+Sifchain , channel-19, [sif16vmp...mht](https://www.mintscan.io/sifchain/account/sif16vmp7sz28pnvgz6f3zm6q93y39jsd33a332mht), E-Money, channel-14, [emoney1evdj...yu9](https://www.mintscan.io/emoney/account/emoney1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptla6yu9)
+
+Sifchain, channel-40, [sif1evdj...xyn](https://www.mintscan.io/sifchain/account/sif1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt4r0xyn), Ki chain, channel-7, [ki1evdj...0v](https://www.mintscan.io/ki-chain/account/ki1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpn3l0v)
+
+Sifchain , channel-71, [sif16vmp...mht](https://www.mintscan.io/sifchain/account/sif16vmp7sz28pnvgz6f3zm6q93y39jsd33a332mht), Stargaze, channel-45, [stars14uyfxl...03d](https://www.mintscan.io/stargaze/account/stars14uyfxlv00lj0qhcwt7vms2rsf7kxuld7qu003d)
+
+Sifchain , channel-60, [sif14uyf...y4h](https://www.mintscan.io/sifchain/account/sif14uyfxlv00lj0qhcwt7vms2rsf7kxuld73ahy4h), Gravity Bridge, channel-66, [gravity14uyf...2l5](https://www.mintscan.io/gravity-bridge/account/gravity14uyfxlv00lj0qhcwt7vms2rsf7kxuld7ss22l5)
+
 ----------------
 
 ### _Stargaze_ 
