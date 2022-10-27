@@ -6,7 +6,7 @@ One Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz, 96GB ECC RAM, 2X1TB + 1X2TB M2 Nv
 
 One Intel(R) Xeon(R) Silver 4214 CPU @ 2.20GHz, 288GB ECC RAM, 2 X ASUS Hyper M.2 x16 Gen 4, 8X1TB + 1X2TB M2 Nvme for rpc, 4X1TB SSD for services  
 
-One Processeur AMD Ryzen 9 5900X @ 3,7 Ghz, 128GB ECC RAM, 1 X ASUS Hyper M.2 X16 PCIe 3.0, 6X1TB M2 Nvme for rpc  
+One AMD Ryzen 9 5900X @ 3,7 Ghz, 128GB ECC RAM, 1 X ASUS Hyper M.2 X16 PCIe 3.0, 6X1TB M2 Nvme for rpc  
 
 
 ## Relayer conf
