@@ -75,6 +75,7 @@ policy = 'allow'
 list = [
   ['transfer', 'channel-293'], # Axelar
   ['transfer', 'channel-343'], # Kujira
+  ['transfer', 'channel-431'], # Teritori
 ]
 
 [[chains]]
@@ -102,9 +103,9 @@ memo_prefix = 'Inter Blockchain Services (former 3Tekos) Relayer'
    ['transfer', 'channel-15'],  # Juno
    ['transfer', 'channel-26'],  # Axelar
    ['transfer', 'channel-27'],  # Kujira
- ]
+]
  
- [[chains]]
+[[chains]]
 id = 'juno-1'
 rpc_addr = 'http://127.0.0.1:30657'
 grpc_addr = 'tcp://127.0.0.1:9095'
@@ -130,6 +131,7 @@ memo_prefix = 'Inter Blockchain Services (former 3Tekos) Relayer'
    ['transfer', 'channel-71'], # Axelar
    ['transfer', 'channel-87'], # Kujira  
    ['wasm.juno1lkv72wruk6m39a2j4ps036hzxyhjccwncgfzzcaqxuwndg5x0ghqa8mrhg', 'channel-97'], # kujira
+   ['transfer', 'channel-164'], # Teritori
 ]
 
 [[chains]]
@@ -234,3 +236,26 @@ memo_prefix = 'Inter Blockchain Services (former 3Tekos) Relayer'
    ['transfer', 'channel-50'], # Axelar
 
  ]
+
+[[chains]]
+id = 'teritori-1'
+rpc_addr = 'http://192.168.1.152:26657'
+grpc_addr = 'http://192.168.1.152:9090'
+websocket_addr = 'ws://192.168.1.152:26657/websocket'
+rpc_timeout = '20s'
+account_prefix = 'tori'
+key_name = 'tori'
+store_prefix = 'ibc'
+max_gas = 2000000
+gas_price = { price = 0.0, denom = 'utori' }
+gas_multiplier = 1.2
+clock_drift ='5s'
+trusting_period = '14days'
+trust_threshold = { numerator = '1', denominator = '3' }
+memo_prefix = 'Inter Blockchain Services Relayer'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+   ['transfer', 'channel-10'], # cosmoshub
+   ['transfer', 'channel-11'], # juno
+]

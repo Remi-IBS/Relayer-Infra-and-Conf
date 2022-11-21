@@ -110,6 +110,8 @@ Cosmos, channel-314, [cosmos14uyf...j6u](https://www.mintscan.io/cosmos/account/
 
 Cosmos, channel-343, [cosmos16vmp...dcq](https://www.mintscan.io/cosmos/account/cosmos16vmp7sz28pnvgz6f3zm6q93y39jsd33a5v9dcq), Kujira , channel-0, [kujira16vmp...9np](https://www.mintscan.io/kujira/account/kujira1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpkzgxj)
 
+Cosmos , channel-431, [cosmos16vmp...9dcq](https://www.mintscan.io/cosmos/account/cosmos16vmp7sz28pnvgz6f3zm6q93y39jsd33a5v9dcq),Teritori , channel-10, [tori1evdj...esg...2hk](https://www.mintscan.io/teritori/account/tori14uyfxlv00lj0qhcwt7vms2rsf7kxuld7k50mpv)
+
 ---------------- 
 
 ### _Decentr_ 
@@ -213,6 +215,8 @@ Juno, channel-71, [juno16vmp...klu](https://www.mintscan.io/juno/account/juno16v
 Juno, channel-87, [juno16vmp...klu](https://www.mintscan.io/juno/account/juno16vmp7sz28pnvgz6f3zm6q93y39jsd33az7xklu), Kujira , channel-1, [kujira1evdj...gxj](https://www.mintscan.io/kujira/account/kujira1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpkzgxj)
 
 Juno, channel-97, [juno16vmp...klu](https://www.mintscan.io/juno/account/juno16vmp7sz28pnvgz6f3zm6q93y39jsd33az7xklu), Kujira , channel-31, [kujira1evdj...gxj](https://www.mintscan.io/kujira/account/kujira1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpkzgxj), CW20
+
+Juno , channel-164, [juno16vmp...xklu](https://www.mintscan.io/juno/account/juno16vmp7sz28pnvgz6f3zm6q93y39jsd33az7xklu), Teritori , channel-11, [tori1evdj...esg...2hk](https://www.mintscan.io/teritori/account/tori14uyfxlv00lj0qhcwt7vms2rsf7kxuld7k50mpv)
 
 ---------------- 
 
@@ -371,5 +375,9 @@ Stargaze, channel-50, [stars1evdj...dqf](https://www.mintscan.io/stargaze/accoun
 ### _Teritori_ 
 
 Teritori , channel-0, [tori1evdj...esg...2hk](https://teritori.explorers.guru/account/tori1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptj2hesg), Osmosis , channel-362, [osmo1tdl8...ej9](https://www.mintscan.io/osmosis/account/osmo1tdl8wlqx0w8laeqytxx9rphfcu7cm2cyqahej9)
+
+Teritori , channel-10, [tori1evdj...esg...2hk](https://www.mintscan.io/teritori/account/tori14uyfxlv00lj0qhcwt7vms2rsf7kxuld7k50mpv), Cosmos , channel-431, [cosmos16vmp...9dcq](https://www.mintscan.io/cosmos/account/cosmos16vmp7sz28pnvgz6f3zm6q93y39jsd33a5v9dcq)
+
+Teritori , channel-11, [tori1evdj...esg...2hk](https://www.mintscan.io/teritori/account/tori14uyfxlv00lj0qhcwt7vms2rsf7kxuld7k50mpv), Juno , channel-164, [juno16vmp...xklu](https://www.mintscan.io/juno/account/juno16vmp7sz28pnvgz6f3zm6q93y39jsd33az7xklu)
 
 ----------------
