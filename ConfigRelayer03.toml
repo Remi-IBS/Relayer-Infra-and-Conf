@@ -132,8 +132,8 @@ memo_prefix = 'Inter Blockchain Services Relayer'
 [[chains]]
 id = 'evmos_9001-2'
 type = 'CosmosSdk'
-rpc_addr =  'https://rpc-evmos.validavia.me:443'  #'https://rpc-evmos-ia.cosmosia.notional.ventures'
-grpc_addr = 'https://evmos-grpc.lavenderfive.com:443'
+rpc_addr =  'http://192.168.190:26657'  
+grpc_addr = 'tcp://192.168.190:9090'
 event_source = { mode = 'pull', interval = '1s' }
 account_prefix = 'evmos'
 key_name = 'evmos'
@@ -156,7 +156,7 @@ list = [
 [[chains]]
 id = 'gravity-bridge-3'
 type = 'CosmosSdk'
-rpc_addr = 'http://192.168.1.37:26657'  #'https://gravity-rpc.polkachu.com:443'  #'http://192.168.1.37:26657'
+rpc_addr = 'http://192.168.1.37:26657'  
 grpc_addr = 'http://192.168.1.37:9090'
 event_source = { mode = 'push', url = 'ws://192.168.1.37:26657/websocket', batch_delay = '200ms' }
 rpc_timeout = '120s'
