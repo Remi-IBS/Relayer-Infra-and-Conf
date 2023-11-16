@@ -243,7 +243,7 @@ memo_prefix = 'Inter Blockchain Services Relayer'
 [[chains]]
 id = 'quicksilver-2'
 type = 'CosmosSdk'
-rpc_addr =  'http://192.168.1.51:27657'   #'https://quicksilver-mainnet-rpc.itrocket.net'   #'http://192.168.1.51:27657'
+rpc_addr =  'http://192.168.1.51:27657' 
 grpc_addr = 'tcp://192.168.1.51:9090'
 event_source = { mode = 'push', url = 'ws://192.168.1.51:27657/websocket', batch_delay = '200ms' }
 rpc_timeout = '120s'
@@ -274,8 +274,8 @@ memo_prefix = 'Inter Blockchain Services Relayer'
 [[chains]]
 id = 'stargaze-1'
 type = 'CosmosSdk'
-rpc_addr =  'http://192.168.1.250:27657'   # 'https://stargaze-rpc.polkachu.com:443'   # 'http://192.168.1.35:26657'
-grpc_addr =   'tcp://192.168.1.250:9092'  # 'https://stargaze-rpc.polkachu.com:9090'  #   'tcp://192.168.1.35:9090'
+rpc_addr =  'http://192.168.1.250:27657'   
+grpc_addr =   'tcp://192.168.1.250:9092'  
 event_source = { mode = 'push', url = 'ws://192.168.1.250:27657/websocket', batch_delay = '200ms' }
 rpc_timeout = '120s'
 account_prefix = 'stars'
