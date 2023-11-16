@@ -60,10 +60,9 @@ list = [
 [[chains]]
 id = "celestia"
 type = "CosmosSdk"
-rpc_addr = "https://rpc-celestia-01.stakeflow.io:443"
-grpc_addr = "https://grpc.celestia.nodestake.top:443"
-#event_source = { mode = 'push', url = 'ws://127.0.0.1:31657/websocket', batch_delay = '500ms' }
-event_source = { mode = 'pull', interval = '1s' }
+rpc_addr = "http://127.0.0.1:31657"
+grpc_addr = "tcp://127.0.0.1:9890"
+event_source = { mode = 'push', url = 'ws://127.0.0.1:31657/websocket', batch_delay = '500ms' }
 rpc_timeout = "120s"
 account_prefix = "celestia"
 key_name = "celestia-key"
