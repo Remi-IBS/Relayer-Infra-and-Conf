@@ -28,34 +28,90 @@ port = 3000
 
 [[chains]]
 id = 'laozi-mainnet'
-rpc_addr =  'http://192.168.1.55:26657'    # 'http://rpc.laozi1.bandchain.org:80'   # 'http://192.168.1.55:26657'
-grpc_addr =   'tcp://192.168.1.55:9090'   # 'tcp://rpc.laozi1.bandchain.org:80'  # 'tcp://192.168.1.55:9090'
-websocket_addr =   'ws://192.168.1.55:26657/websocket'   # 'http://rpc.laozi1.bandchain.org:80/websocket'    # 'ws://192.168.1.55:26657/websocket'
-rpc_timeout = '20s'
+type = 'CosmosSdk'
+rpc_addr =  'http://192.168.1.56:27657'    # 'http://rpc.laozi1.bandchain.org:80'   # 'http://192.168.1.55:26657'
+grpc_addr =   'tcp://192.168.1.56:9790'   # 'tcp://rpc.laozi1.bandchain.org:80'  # 'tcp://192.168.1.55:9090'
+event_source = { mode = 'push', url = 'ws://192.168.1.56:27657/websocket', batch_delay = '200ms' }
+rpc_timeout = '120s'
 account_prefix = 'band'
 key_name = 'band'
 store_prefix = 'ibc'
 #max_tx_size = 180000
 max_gas = 2000000
-gas_price = { price = 0.0, denom = 'uband' }
+gas_price = { price = 0.0025, denom = 'uband' }
 gas_multiplier = 1.2
 clock_drift = '895s'
 trusting_period = '14days'
 trust_threshold = { numerator = '1', denominator = '3' }
-memo_prefix = 'Inter Blockchain Services (former 3Tekos) Relayer'
+memo_prefix = 'Inter Blockchain Services Relayer'
 [chains.packet_filter]
  policy = 'allow'
  list = [
-   ['oracle', 'channel-12'], # Desmos
+   ['oracle', 'channel-157'], # Desmos
    ['transfer', 'channel-83'], # Osmosis
 ]
 
 [[chains]]
-id = 'desmos-mainnet'
-rpc_addr = 'http://192.168.1.35:26657'
-grpc_addr = 'tcp://192.168.1.35:9090'
-websocket_addr = 'ws://192.168.1.35:26657/websocket'
+id = 'coreum-mainnet-1'
+type = 'CosmosSdk'
+rpc_addr = 'http://192.168.1.55:27657'
+grpc_addr = 'http://192.168.1.55:9092'
+event_source = { mode = 'push', url = 'ws://192.168.1.55:27657/websocket', batch_delay = '200ms' }
+rpc_timeout = '120s'
+account_prefix = 'core'
+key_name = 'coreum'
+store_prefix = 'ibc'
+max_gas = 2000000
+gas_price = { price = 0.06, denom = 'ucore' }
+gas_multiplier = 1.5
+clock_drift ='5s'
+trusting_period = '1209600s'
+trust_threshold = { numerator = '1', denominator = '3' }
+memo_prefix = 'Inter Blockchain Services Relayer'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+   ['transfer', 'channel-7'], # Gravity
+   ['transfer', 'channel-8'], # evmos
+]
+
+[[chains]]
+id = 'cosmoshub-4'
+type = 'CosmosSdk'
+rpc_addr = 'http://192.168.1.250:33657'
+grpc_addr = 'http://192.168.1.250:9098'
+event_source = { mode = 'push', url = 'ws://192.168.1.250:33657/websocket', batch_delay = '200ms' }
 rpc_timeout = '20s'
+account_prefix = 'cosmos'
+key_name = 'cosmos'
+store_prefix = 'ibc'
+max_msg_num = 5
+max_tx_size = 180000
+max_gas = 2000000
+default_gas = 1000000
+gas_price = { price = 0.00, denom = 'uatom' }
+gas_multiplier = 1.5
+clock_drift = '15s'
+trusting_period = '1209600s'
+trust_threshold = { numerator = '1', denominator = '3' }
+memo_prefix = 'Inter Blockchain Services Relayer'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['icahost', 'channel-604'], # lum pool 1 deposit
+  ['icahost', 'channel-605'], # lum pool 2 deposit
+  ['icahost', 'channel-606'], # lum pool 1 prizepool
+  ['icahost', 'channel-607'], # lum pool 2 prizepool
+
+]
+
+[[chains]]
+id = 'desmos-mainnet'
+type = 'CosmosSdk'
+rpc_addr = 'http://192.168.1.40:26657'
+grpc_addr = 'tcp://192.168.1.40:9090'
+event_source = { mode = 'push', url = 'ws://192.168.1.40:26657/websocket', batch_delay = '200ms' }
+rpc_timeout = '120s'
 account_prefix = 'desmos'
 key_name = 'desmos'
 store_prefix = 'ibc'
@@ -65,67 +121,71 @@ gas_multiplier = 1.2
 clock_drift = '25s'
 trusting_period = '9days'
 trust_threshold = { numerator = '1', denominator = '3' }
-memo_prefix = 'Inter Blockchain Services (former 3Tekos) Relayer'
+memo_prefix = 'Inter Blockchain Services Relayer'
 [chains.packet_filter]
  policy = 'allow'
  list = [
    ['transfer', 'channel-2'], # Osmosis
-   ['ibc-profiles', 'channel-1'], # Band
+   ['ibc-profiles', 'channel-32'], # Band
 ]
 
-#[[chains]]
-#id = 'galaxy-1'
-#rpc_addr = 'http://192.168.1.56:27657'
-#grpc_addr = 'http://192.168.1.56:9190'
-#websocket_addr = 'ws://192.168.1.56:27657/websocket'
-#rpc_timeout = '30s'
-#account_prefix = 'galaxy'
-#key_name = 'galaxy'
-#store_prefix = 'ibc'
-#max_gas = 1500000
-#gas_price = { price = 0.025, denom = 'uglx' }
-#gas_multiplier = 1.2
-#clock_drift ='20s'
-#trusting_period = '14days'
-#trust_threshold = { numerator = '1', denominator = '3' }
-#memo_prefix = 'Inter Blockchain Services (former 3Tekos) Relayer'
-#[chains.packet_filter]
-#policy = 'allow'
-#list = [
-#   ['transfer', 'channel-0'], # osmosis
-#]
+[[chains]]
+id = 'evmos_9001-2'
+type = 'CosmosSdk'
+rpc_addr =  'https://rpc-evmos.validavia.me:443'  #'https://rpc-evmos-ia.cosmosia.notional.ventures'
+grpc_addr = 'https://evmos-grpc.lavenderfive.com:443'
+event_source = { mode = 'pull', interval = '1s' }
+account_prefix = 'evmos'
+key_name = 'evmos'
+store_prefix = 'ibc'
+max_tx_size = 180000
+max_gas = 3000000
+gas_price = { price = 20000000000, denom = 'aevmos' }
+gas_multiplier = 2
+clock_drift = '50s'
+trusting_period = '84hours'
+trust_threshold = { numerator = '1', denominator = '3' }
+memo_prefix = 'Inter Blockchain Services Relayer'
+address_type = { derivation = 'ethermint', proto_type = { pk_type = '/ethermint.crypto.v1.ethsecp256k1.PubKey' } }
+[chains.packet_filter]
+policy = 'allow'
+list = [
+   ['transfer', 'channel-87'] # coreum
+]
 
 [[chains]]
 id = 'gravity-bridge-3'
-rpc_addr = 'http://192.168.1.37:26657'
+type = 'CosmosSdk'
+rpc_addr = 'http://192.168.1.37:26657'  #'https://gravity-rpc.polkachu.com:443'  #'http://192.168.1.37:26657'
 grpc_addr = 'http://192.168.1.37:9090'
-websocket_addr = 'ws://192.168.1.37:26657/websocket'
-rpc_timeout = '15s'
+event_source = { mode = 'push', url = 'ws://192.168.1.37:26657/websocket', batch_delay = '200ms' }
+rpc_timeout = '120s'
 account_prefix = 'gravity'
 key_name = 'grav'
 store_prefix = 'ibc'
 max_gas = 1200000
-gas_price = { price = 0.0, denom = 'ugraviton' }
+gas_price = { price = 0.001, denom = 'ugraviton' }
 gas_multiplier = 1.2
 clock_drift ='555s'
 trusting_period = '14days'
 trust_threshold = { numerator = '1', denominator = '3' }
-memo_prefix = 'Inter Blockchain Services (former 3Tekos) Relayer'
+memo_prefix = 'Inter Blockchain Services Relayer'
 [chains.packet_filter]
 policy = 'allow'
 list = [
    ['transfer', 'channel-10'], # Osmosis
-   ['transfer', 'channel-53'], # Rizon
-   ['transfer', 'channel-83'], # Kujira
+   ['transfer', 'channel-107'], # Kujira
+   ['transfer', 'channel-142'], #coreum
 ]
 
 [[chains]]
 id = 'kaiyo-1'
+type = 'CosmosSdk'
 rpc_addr = 'http://192.168.1.250:28657'
 grpc_addr =  'tcp://192.168.1.250:9093'
-websocket_addr =  'ws://192.168.1.250:28657/websocket'
+event_source = { mode = 'push', url = 'ws://192.168.1.250:28657/websocket', batch_delay = '200ms' }
 fee_granter = 'kujira1vkje22mayn72r0a7kna6agv0sqm6k94ry9k6dd'
-rpc_timeout = '60s'
+rpc_timeout = '120s'
 account_prefix = 'kujira'
 key_name = 'kujira'
 store_prefix = 'ibc'
@@ -135,21 +195,47 @@ gas_multiplier = 1.2
 clock_drift = '5s'
 trusting_period = '9days'
 trust_threshold = { numerator = '1', denominator = '3' }
-memo_prefix = 'Inter Blockchain Services (former 3Tekos) Relayer'
+memo_prefix = 'Inter Blockchain Services Relayer'
 [chains.packet_filter]
  policy = 'allow'
  list = [
    ['transfer', 'channel-3'], # Osmosis
-   ['transfer', 'channel-11'], # Gravity
-   ['transfer', 'channel-19'], # Lum
+   ['transfer', 'channel-50'], # Gravity
+   ['transfer', 'channel-95'], # kava
+
+]
+
+[[chains]]
+id = 'kava_2222-10'
+type = 'CosmosSdk'
+rpc_addr = 'http://192.168.1.54:26657'
+grpc_addr = 'tcp://192.168.1.54:9090'
+event_source = { mode = 'push', url = 'ws://192.168.1.54:26657/websocket', batch_delay = '200ms' }
+rpc_timeout = '120s'
+account_prefix = 'kava'
+key_name = 'kava'
+store_prefix = 'ibc'
+max_tx_size = 179000
+max_gas = 3000000
+gas_price = { price = 0.003, denom = 'ukava' }
+gas_multiplier = 1.3
+clock_drift = '25s'
+trusting_period = '14days'
+trust_threshold = { numerator = '1', denominator = '3' }
+memo_prefix = 'Inter Blockchain Services Relayer'
+[chains.packet_filter]
+ policy = 'allow'
+ list = [
+   ['transfer', 'channel-116'], # Kujira
 ]
 
 [[chains]]
 id = 'lum-network-1'
+type = 'CosmosSdk'
 rpc_addr = 'http://192.168.1.116:27657'
 grpc_addr = 'http://192.168.1.116:9190'
-websocket_addr = 'ws://192.168.1.116:27657/websocket'
-rpc_timeout = '15s'
+event_source = { mode = 'push', url = 'ws://192.168.1.116:27657/websocket', batch_delay = '200ms' }
+rpc_timeout = '120s'
 account_prefix = 'lum'
 key_name = 'lum'
 store_prefix = 'ibc'
@@ -159,20 +245,25 @@ gas_multiplier = 1.2
 clock_drift ='15s'
 trusting_period = '14days'
 trust_threshold = { numerator = '1', denominator = '3' }
-memo_prefix = 'Inter Blockchain Services (former 3Tekos) Relayer'
+memo_prefix = 'Inter Blockchain Services Relayer'
 [chains.packet_filter]
 policy = 'allow'
 list = [
    ['transfer', 'channel-3'], # osmosis
-   ['transfer', 'channel-7'], # kujira
+   ['icacontroller-pool.1.deposit', 'channel-13'], # ica cosmos 
+   ['icacontroller-pool.2.deposit', 'channel-14'], # ica cosmos
+   ['icacontroller-pool.1.prizepool', 'channel-15'], # ica cosmos
+   ['icacontroller-pool.2.prizepool', 'channel-16'], # ica cosmos
+
 ]
 
 [[chains]]
 id = 'osmosis-1'
+type = 'CosmosSdk'
 rpc_addr = 'http://192.168.1.126:26657'
 grpc_addr = 'tcp://192.168.1.126:9090'
-websocket_addr = 'ws://192.168.1.126:26657/websocket'
-rpc_timeout = '30s'
+event_source = { mode = 'pull', interval = '1s' }
+rpc_timeout = '120s'
 account_prefix = 'osmo'
 key_name = 'osmosis'
 store_prefix = 'ibc'
@@ -184,7 +275,7 @@ max_tx_size = 1800000
 clock_drift = '15s'
 trusting_period = '9days'
 trust_threshold = { numerator = '1', denominator = '3' }
-memo_prefix = 'Inter Blockchain Services (former 3Tekos) Relayer'
+memo_prefix = 'Inter Blockchain Services Relayer'
 [chains.packet_filter]
  policy = 'allow'
  list = [
@@ -193,17 +284,17 @@ memo_prefix = 'Inter Blockchain Services (former 3Tekos) Relayer'
    ['transfer', 'channel-144'], # Gravity
    ['transfer', 'channel-148'], # Band
    ['transfer', 'channel-221'], # Rizon
-#   ['transfer', 'channel-236'], # Galaxy
    ['transfer', 'channel-259'], # Kujira
    ['transfer', 'channel-362'], # teritori
  ]
 
 [[chains]]
 id = 'titan-1'
+type = 'CosmosSdk'
 rpc_addr = 'http://192.168.1.116:26657/'
 grpc_addr = 'tcp://192.168.1.116:9090'
-websocket_addr = 'ws://192.168.1.116:26657/websocket'
-rpc_timeout = '30s'
+event_source = { mode = 'push', url = 'ws://192.168.1.116:26657/websocket', batch_delay = '200ms' }
+rpc_timeout = '120s'
 account_prefix = 'rizon'
 key_name = 'rizon'
 store_prefix = 'ibc'
@@ -214,25 +305,25 @@ gas_multiplier = 1.2
 clock_drift = '5s'
 trusting_period = '14days'
 trust_threshold = { numerator = '1', denominator = '3' }
-memo_prefix = 'Inter Blockchain Services (former 3Tekos) Relayer'
+memo_prefix = 'Inter Blockchain Services Relayer'
 [chains.packet_filter]
  policy = 'allow'
  list = [
    ['transfer', 'channel-1'], # osmosis
-   ['transfer', 'channel-4'], #gravity
 ]
 
 [[chains]]
 id = 'teritori-1'
-rpc_addr = 'http://192.168.1.152:26657'
-grpc_addr = 'http://192.168.1.152:9090'
-websocket_addr = 'ws://192.168.1.152:26657/websocket'
-rpc_timeout = '20s'
+type = 'CosmosSdk'
+rpc_addr = 'http://192.168.1.155:27657'
+grpc_addr = 'http://192.168.1.155:9092'
+event_source = { mode = 'push', url = 'ws://192.168.1.155:27657/websocket', batch_delay = '200ms' }
+rpc_timeout = '120s'
 account_prefix = 'tori'
 key_name = 'tori'
 store_prefix = 'ibc'
 max_gas = 2000000
-gas_price = { price = 0.0, denom = 'utori' }
+gas_price = { price = 0.001, denom = 'utori' }
 gas_multiplier = 1.2
 clock_drift ='5s'
 trusting_period = '14days'
