@@ -29,8 +29,8 @@ port = 3000
 [[chains]]
 id = 'laozi-mainnet'
 type = 'CosmosSdk'
-rpc_addr =  'http://192.168.1.56:27657'    # 'http://rpc.laozi1.bandchain.org:80'   # 'http://192.168.1.55:26657'
-grpc_addr =   'tcp://192.168.1.56:9790'   # 'tcp://rpc.laozi1.bandchain.org:80'  # 'tcp://192.168.1.55:9090'
+rpc_addr =  'http://192.168.1.56:27657'    
+grpc_addr =   'tcp://192.168.1.56:9790'   
 event_source = { mode = 'push', url = 'ws://192.168.1.56:27657/websocket', batch_delay = '200ms' }
 rpc_timeout = '120s'
 account_prefix = 'band'
