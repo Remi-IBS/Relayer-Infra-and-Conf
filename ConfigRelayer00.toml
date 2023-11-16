@@ -54,7 +54,7 @@ list = [
    ['transfer', 'channel-18'], # Stargaze
    ['transfer', 'channel-114'], # Ixo
    ['transfer', 'channel-120'], # Coreum
-   ['transfer', 'channel-125'], # Coreum
+   ['transfer', 'channel-125'], # Celestia
 ]
 
 [[chains]]
