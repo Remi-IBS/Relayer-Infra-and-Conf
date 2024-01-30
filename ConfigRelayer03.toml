@@ -18,30 +18,28 @@ enabled = false
 enabled = true
 clear_interval = 1000
 clear_on_start = false
-#filter = true
 tx_confirmation = true
 
 [telemetry]
 enabled = true
-host = '192.168.1.113'
+host = 'X.X.X.X'
 port = 3000
 
 [[chains]]
 id = 'laozi-mainnet'
 type = 'CosmosSdk'
-rpc_addr =  'http://192.168.1.56:27657'    
-grpc_addr =   'tcp://192.168.1.56:9790'   
-event_source = { mode = 'push', url = 'ws://192.168.1.56:27657/websocket', batch_delay = '200ms' }
+rpc_addr =  'RPC_ENDPOINT'
+grpc_addr =   'GRPC_ENDPOINT'
+event_source = { mode = 'pull', interval = '200ms' }
 rpc_timeout = '120s'
 account_prefix = 'band'
 key_name = 'band'
 store_prefix = 'ibc'
-#max_tx_size = 180000
 max_gas = 2000000
 gas_price = { price = 0.0025, denom = 'uband' }
 gas_multiplier = 1.2
 clock_drift = '895s'
-trusting_period = '14days'
+trusting_period = '1209600s'
 trust_threshold = { numerator = '1', denominator = '3' }
 memo_prefix = 'Inter Blockchain Services Relayer'
 [chains.packet_filter]
@@ -49,14 +47,15 @@ memo_prefix = 'Inter Blockchain Services Relayer'
  list = [
    ['oracle', 'channel-157'], # Desmos
    ['transfer', 'channel-83'], # Osmosis
+   ['transfer', 'channel-159'], # Coreum
 ]
 
 [[chains]]
 id = 'coreum-mainnet-1'
 type = 'CosmosSdk'
-rpc_addr = 'http://192.168.1.55:27657'
-grpc_addr = 'http://192.168.1.55:9092'
-event_source = { mode = 'push', url = 'ws://192.168.1.55:27657/websocket', batch_delay = '200ms' }
+rpc_addr = 'RPC_ENDPOINT'
+grpc_addr = 'GRPC_ENDPOINT'
+event_source = { mode = 'pull', interval = '200ms' }
 rpc_timeout = '120s'
 account_prefix = 'core'
 key_name = 'coreum'
@@ -65,31 +64,32 @@ max_gas = 2000000
 gas_price = { price = 0.06, denom = 'ucore' }
 gas_multiplier = 1.5
 clock_drift ='5s'
-trusting_period = '1209600s'
+trusting_period = '403200s'
 trust_threshold = { numerator = '1', denominator = '3' }
 memo_prefix = 'Inter Blockchain Services Relayer'
 [chains.packet_filter]
 policy = 'allow'
 list = [
    ['transfer', 'channel-7'], # Gravity
-   ['transfer', 'channel-8'], # evmos
+   ['transfer', 'channel-20'], # Band
+   ['transfer', 'channel-19'], # Noble
 ]
 
 [[chains]]
 id = 'cosmoshub-4'
 type = 'CosmosSdk'
-rpc_addr = 'http://192.168.1.250:33657'
-grpc_addr = 'http://192.168.1.250:9098'
-event_source = { mode = 'push', url = 'ws://192.168.1.250:33657/websocket', batch_delay = '200ms' }
+rpc_addr = 'RPC_ENDPOINT'
+grpc_addr = 'GRPC_ENDPOINT'
+event_source = { mode = 'pull', interval = '200ms' }
 rpc_timeout = '20s'
 account_prefix = 'cosmos'
 key_name = 'cosmos'
 store_prefix = 'ibc'
 max_msg_num = 5
 max_tx_size = 180000
-max_gas = 2000000
+max_gas = 4000000
 default_gas = 1000000
-gas_price = { price = 0.00, denom = 'uatom' }
+gas_price = { price = 0.005, denom = 'uatom' }
 gas_multiplier = 1.5
 clock_drift = '15s'
 trusting_period = '1209600s'
@@ -98,19 +98,15 @@ memo_prefix = 'Inter Blockchain Services Relayer'
 [chains.packet_filter]
 policy = 'allow'
 list = [
-  ['icahost', 'channel-604'], # lum pool 1 deposit
-  ['icahost', 'channel-605'], # lum pool 2 deposit
-  ['icahost', 'channel-606'], # lum pool 1 prizepool
-  ['icahost', 'channel-607'], # lum pool 2 prizepool
-
+  ['icahost', 'channel-*'], # lum pool 1 deposit
 ]
 
 [[chains]]
 id = 'desmos-mainnet'
 type = 'CosmosSdk'
-rpc_addr = 'http://192.168.1.40:26657'
-grpc_addr = 'tcp://192.168.1.40:9090'
-event_source = { mode = 'push', url = 'ws://192.168.1.40:26657/websocket', batch_delay = '200ms' }
+rpc_addr = 'RPC_ENDPOINT'
+grpc_addr = 'GRPC_ENDPOINT'
+event_source = { mode = 'pull', interval = '200ms' }
 rpc_timeout = '120s'
 account_prefix = 'desmos'
 key_name = 'desmos'
@@ -132,9 +128,10 @@ memo_prefix = 'Inter Blockchain Services Relayer'
 [[chains]]
 id = 'evmos_9001-2'
 type = 'CosmosSdk'
-rpc_addr =  'http://192.168.190:26657'  
-grpc_addr = 'tcp://192.168.190:9090'
-event_source = { mode = 'pull', interval = '1s' }
+rpc_addr =  'https://rpc.evmos.nodestake.top:443' #'http://65.108.70.119:57657'  #'https://rpc-evmos-ia.cosmosia.notional.ventures'
+grpc_addr =  'http://evmos-grpc.w3coins.io:13490'  #'http://grpc-evmos.cosmos-spaces.cloud:1190'
+trusted_node = true
+event_source = { mode = 'pull', interval = '10s' }
 account_prefix = 'evmos'
 key_name = 'evmos'
 store_prefix = 'ibc'
@@ -156,9 +153,9 @@ list = [
 [[chains]]
 id = 'gravity-bridge-3'
 type = 'CosmosSdk'
-rpc_addr = 'http://192.168.1.37:26657'  
-grpc_addr = 'http://192.168.1.37:9090'
-event_source = { mode = 'push', url = 'ws://192.168.1.37:26657/websocket', batch_delay = '200ms' }
+rpc_addr = 'RPC_ENDPOINT'
+grpc_addr = 'GRPC_ENDPOINT'
+event_source = { mode = 'pull', interval = '200ms' }
 rpc_timeout = '120s'
 account_prefix = 'gravity'
 key_name = 'grav'
@@ -181,16 +178,15 @@ list = [
 [[chains]]
 id = 'kaiyo-1'
 type = 'CosmosSdk'
-rpc_addr = 'http://192.168.1.250:28657'
-grpc_addr =  'tcp://192.168.1.250:9093'
-event_source = { mode = 'push', url = 'ws://192.168.1.250:28657/websocket', batch_delay = '200ms' }
-fee_granter = 'kujira1vkje22mayn72r0a7kna6agv0sqm6k94ry9k6dd'
+rpc_addr = 'RPC_ENDPOINT'
+grpc_addr =  'GRPC_ENDPOINT'
+event_source = { mode = 'pull', interval = '200ms' }
 rpc_timeout = '120s'
 account_prefix = 'kujira'
 key_name = 'kujira'
 store_prefix = 'ibc'
 max_gas = 2000000
-gas_price = { price = 0.00125, denom = 'ukuji' }
+gas_price = { price = 0.0034, denom = 'ukuji' }
 gas_multiplier = 1.2
 clock_drift = '5s'
 trusting_period = '9days'
@@ -202,22 +198,22 @@ memo_prefix = 'Inter Blockchain Services Relayer'
    ['transfer', 'channel-3'], # Osmosis
    ['transfer', 'channel-50'], # Gravity
    ['transfer', 'channel-95'], # kava
-
+   ['transfer', 'channel-62'], # Noble
 ]
 
 [[chains]]
 id = 'kava_2222-10'
 type = 'CosmosSdk'
-rpc_addr = 'http://192.168.1.54:26657'
-grpc_addr = 'tcp://192.168.1.54:9090'
-event_source = { mode = 'push', url = 'ws://192.168.1.54:26657/websocket', batch_delay = '200ms' }
+rpc_addr = 'RPC_ENDPOINT'
+grpc_addr = 'GRPC_ENDPOINT'
+event_source = { mode = 'push', url = 'ws://RPC_ENDPOINT/websocket', batch_delay = '200ms' }
 rpc_timeout = '120s'
 account_prefix = 'kava'
 key_name = 'kava'
 store_prefix = 'ibc'
 max_tx_size = 179000
-max_gas = 3000000
-gas_price = { price = 0.003, denom = 'ukava' }
+max_gas = 10000000
+gas_price = { price = 0.001, denom = 'ukava' }
 gas_multiplier = 1.3
 clock_drift = '25s'
 trusting_period = '14days'
@@ -232,14 +228,14 @@ memo_prefix = 'Inter Blockchain Services Relayer'
 [[chains]]
 id = 'lum-network-1'
 type = 'CosmosSdk'
-rpc_addr = 'http://192.168.1.116:27657'
-grpc_addr = 'http://192.168.1.116:9190'
-event_source = { mode = 'push', url = 'ws://192.168.1.116:27657/websocket', batch_delay = '200ms' }
+rpc_addr = 'RPC_ENDPOINT'
+grpc_addr = 'GRPC_ENDPOINT'
+event_source = { mode = 'pull', interval = '200ms' }
 rpc_timeout = '120s'
 account_prefix = 'lum'
 key_name = 'lum'
 store_prefix = 'ibc'
-max_gas = 1200000
+max_gas = 12000000
 gas_price = { price = 0.001, denom = 'ulum' }
 gas_multiplier = 1.2
 clock_drift ='15s'
@@ -250,28 +246,26 @@ memo_prefix = 'Inter Blockchain Services Relayer'
 policy = 'allow'
 list = [
    ['transfer', 'channel-3'], # osmosis
-   ['icacontroller-pool.1.deposit', 'channel-13'], # ica cosmos 
-   ['icacontroller-pool.2.deposit', 'channel-14'], # ica cosmos
-   ['icacontroller-pool.1.prizepool', 'channel-15'], # ica cosmos
-   ['icacontroller-pool.2.prizepool', 'channel-16'], # ica cosmos
-
+   ['icacontroller-*', 'channel-*'], # ica cosmos 
 ]
 
 [[chains]]
 id = 'osmosis-1'
 type = 'CosmosSdk'
-rpc_addr = 'http://192.168.1.126:26657'
-grpc_addr = 'tcp://192.168.1.126:9090'
-event_source = { mode = 'pull', interval = '1s' }
+rpc_addr = 'RPC_ENDPOINT'
+grpc_addr = 'GRPC_ENDPOINT'
+event_source = { mode = 'pull', interval = '200ms' }
 rpc_timeout = '120s'
 account_prefix = 'osmo'
 key_name = 'osmosis'
+gas_price_multiplier = 1.1
+max_gas_price = 0.6
 store_prefix = 'ibc'
-max_gas = 12000000
+max_gas = 25000000
 max_msg_num = 30
-gas_price = { price = 0.0025, denom = 'uosmo' }
-gas_multiplier = 1.5
-max_tx_size = 1800000
+gas_price = { price = 0.025, denom = 'uosmo' }
+gas_multiplier = 1.1
+max_tx_size = 2097152
 clock_drift = '15s'
 trusting_period = '9days'
 trust_threshold = { numerator = '1', denominator = '3' }
@@ -279,51 +273,27 @@ memo_prefix = 'Inter Blockchain Services Relayer'
 [chains.packet_filter]
  policy = 'allow'
  list = [
+   ['transfer', 'channel-113'], # Huahua
    ['transfer', 'channel-115'], # Lum
    ['transfer', 'channel-135'], # Desmos
    ['transfer', 'channel-144'], # Gravity
    ['transfer', 'channel-148'], # Band
-   ['transfer', 'channel-221'], # Rizon
    ['transfer', 'channel-259'], # Kujira
    ['transfer', 'channel-362'], # teritori
- ]
-
-[[chains]]
-id = 'titan-1'
-type = 'CosmosSdk'
-rpc_addr = 'http://192.168.1.116:26657/'
-grpc_addr = 'tcp://192.168.1.116:9090'
-event_source = { mode = 'push', url = 'ws://192.168.1.116:26657/websocket', batch_delay = '200ms' }
-rpc_timeout = '120s'
-account_prefix = 'rizon'
-key_name = 'rizon'
-store_prefix = 'ibc'
-max_gas = 6000000
-max_msg_num = 10
-gas_price = { price = 0.0001, denom = 'uatolo' }
-gas_multiplier = 1.2
-clock_drift = '5s'
-trusting_period = '14days'
-trust_threshold = { numerator = '1', denominator = '3' }
-memo_prefix = 'Inter Blockchain Services Relayer'
-[chains.packet_filter]
- policy = 'allow'
- list = [
-   ['transfer', 'channel-1'], # osmosis
 ]
 
 [[chains]]
 id = 'teritori-1'
 type = 'CosmosSdk'
-rpc_addr = 'http://192.168.1.155:27657'
-grpc_addr = 'http://192.168.1.155:9092'
-event_source = { mode = 'push', url = 'ws://192.168.1.155:27657/websocket', batch_delay = '200ms' }
+rpc_addr = 'RPC_ENDPOINT'
+grpc_addr = 'GRPC_ENDPOINT'
+event_source = { mode = 'pull', interval = '200ms' }
 rpc_timeout = '120s'
 account_prefix = 'tori'
 key_name = 'tori'
 store_prefix = 'ibc'
 max_gas = 2000000
-gas_price = { price = 0.001, denom = 'utori' }
+gas_price = { price = 0.00, denom = 'utori' }
 gas_multiplier = 1.2
 clock_drift ='5s'
 trusting_period = '14days'
@@ -333,4 +303,51 @@ memo_prefix = 'Inter Blockchain Services Relayer'
 policy = 'allow'
 list = [
    ['transfer', 'channel-0'], # osmo
+]
+
+[[chains]]
+id = 'noble-1'
+type = 'CosmosSdk'
+rpc_addr = 'RPC_ENDPOINT'
+grpc_addr =  'GRPC_ENDPOINT'
+event_source = { mode = 'pull', interval = '200ms' }
+rpc_timeout = '120s'
+account_prefix = 'noble'
+key_name = 'noble'
+store_prefix = 'ibc'
+max_gas = 2000000
+gas_price = { price = 0, denom = 'uusdc' }
+gas_multiplier = 1.2
+clock_drift ='5s'
+trusting_period = '1209600s'
+trust_threshold = { numerator = '1', denominator = '3' }
+memo_prefix = 'Inter Blockchain Services Relayer'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+   ['transfer' , 'channel-2' ], # Kujira
+   ['transfer', 'channel-49'], # Coreum
+]
+
+[[chains]]
+id = 'chihuahua-1'
+type = 'CosmosSdk'
+rpc_addr = 'RPC_ENDPOINT'
+grpc_addr = 'RPC_ENDPOINT'
+event_source = { mode = 'push', url = 'ws://RPC_ENDPOINT/websocket', batch_delay = '200ms' }
+rpc_timeout = '120s'
+account_prefix = 'chihuahua'
+key_name = 'chihuahua'
+store_prefix = 'ibc'
+max_gas = 10000000
+gas_price = { price = 0.001, denom = 'uhuahua' }
+gas_multiplier = 1.2
+clock_drift ='15s'
+trusting_period = '14days'
+trust_threshold = { numerator = '1', denominator = '3' }
+memo_prefix = 'Inter Blockchain Services Relayer'
+[chains.packet_filter]
+policy = 'allow'
+list = [
+   ['transfer', 'channel-7'], # osmosis
 ]

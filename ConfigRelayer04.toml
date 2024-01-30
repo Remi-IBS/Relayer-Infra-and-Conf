@@ -1,0 +1,107 @@
+[global]
+log_level = 'info'
+
+[mode]
+
+[mode.clients]
+enabled = true
+refresh = true
+misbehaviour = false
+
+[mode.connections]
+enabled = true
+
+[mode.channels]
+enabled = true
+
+[mode.packets]
+enabled = true
+clear_interval = 50
+clear_on_start = false
+#filter = true
+tx_confirmation = true
+
+[telemetry]
+enabled = true
+host = 'X.X.X.X'
+port = 3001
+
+
+[[chains]]
+id = 'neutron-1'
+rpc_addr = 'http://127.0.0.1:28657'
+grpc_addr = 'http://127.0.0.1:9290'
+event_source = { mode = 'pull', interval = '200ms' } 
+rpc_timeout = '30s'
+account_prefix = 'neutron'
+key_name = 'neutron'
+store_prefix = 'ibc'
+max_tx_size = 180000
+max_gas = 5000000
+gas_price = { price = 0.075, denom = 'untrn' }
+gas_multiplier = 1.2
+clock_drift = '15s'
+max_block_time = '30s'
+trusting_period = '14days'
+trust_threshold = { numerator = '1', denominator = '3' }
+memo_prefix = 'Inter Blockchain Services Relayer'
+ccv_consumer_chain = true
+[chains.packet_filter]
+policy = 'allow'
+list = [
+   ['transfer', 'channel-44'], # nolus
+   ['icahost', 'channel-*'], # ICA
+]
+
+[[chains]]
+id = 'osmosis-1'
+rpc_addr = 'http://127.0.0.1:26657'
+grpc_addr = 'tcp://127.0.0.1:9090'
+event_source = { mode = 'pull', interval = '200ms' } 
+rpc_timeout = '15s'
+account_prefix = 'osmo'
+key_name = 'osmosis'
+store_prefix = 'ibc'
+max_gas = 25000000
+max_msg_num = 10
+gas_price = { price = 0.025 , denom = 'uosmo' }
+gas_price_multiplier = 1.1
+max_gas_price = 0.6
+gas_multiplier = 1.1
+clock_drift = '10s'
+max_block_time = '30s'
+trusting_period = '9days'
+trust_threshold = { numerator = '1', denominator = '3' }
+memo_prefix = 'Inter Blockchain Services Relayer'
+[chains.packet_filter]
+ policy = 'allow'
+ list = [
+   ['icahost', 'channel-*'], # ICA
+   ['transfer', 'channel-783'], # Nolus
+
+]
+ 
+[[chains]]
+id = 'pirin-1'
+type = 'CosmosSdk'
+rpc_addr =  'http://127.0.0.1:29657'
+grpc_addr =   'tcp://127.0.0.1:9490'
+event_source = { mode = 'pull', interval = '200ms' } 
+rpc_timeout = '15s'
+account_prefix = 'nolus'
+key_name = 'nolus'
+store_prefix = 'ibc'
+max_gas = 15000000
+max_msg_num = 5
+gas_price = { price = 0.0025 , denom = 'unls' }
+gas_multiplier = 1.5
+clock_drift = '20s'
+trusting_period = '1209600s'
+trust_threshold = { numerator = '1', denominator = '3' }
+memo_prefix = 'Inter Blockchain Services Relayer'
+[chains.packet_filter]
+ policy = 'allow'
+ list = [
+   ['transfer', '*'], #
+   ['icacontroller-*', 'channel-*'], ## ICA
+]
