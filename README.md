@@ -10,6 +10,8 @@ One Intel(R) Xeon(R) Silver 4214 (12C/24T) CPU @ 2.20GHz, 288GB ECC RAM, 2 X ASU
 
 One AMD Ryzen 9 5900X (12C/24T) @ 3,7 Ghz, 128GB ECC RAM, 1 X ASUS Hyper M.2 X16 PCIe 3.0, 6X1TB M2 Nvme for rpc, 1TB SSD for services  
 
+One AMD Ryzen 5 3600 (6C/12T) @ 3,6 Ghz, 128GB ECC RAM,  2X1TB M2 Nvme RAID0, 2*500Gb  M2 Nvme RAID0  
+
 ## Relayer conf  
 
 [Relayer00](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/ConfigRelayer00.toml)  
