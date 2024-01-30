@@ -5,10 +5,10 @@ Our relayer infra is selfhosted with gigabyte fiber connection. We are running f
 ## Server
 
 One Intel(R) Xeon(R) CPU E5-2650 (12C/24T) v4 @ 2.20GHz, 96GB ECC RAM, 2X1TB + 1X2TB M2 Nvme for RPC, 4X1TB SSD for services  
+
 One Intel(R) Xeon(R) Silver 4214 (12C/24T) CPU @ 2.20GHz, 288GB ECC RAM, 2 X ASUS Hyper M.2 x16 Gen 4, 8X1TB + 1X2TB M2 Nvme for rpc, 4X1TB SSD for services  
 
-One AMD Ryzen 9 5900X (12C/24T) @ 3,7 Ghz, 128GB ECC RAM, 1 X ASUS Hyper M.2 X16 PCIe 3.0, 6X1TB M2 Nvme for rpc, 1TB SSD for services
-
+One AMD Ryzen 9 5900X (12C/24T) @ 3,7 Ghz, 128GB ECC RAM, 1 X ASUS Hyper M.2 X16 PCIe 3.0, 6X1TB M2 Nvme for rpc, 1TB SSD for services  
 
 ## Relayer conf  
 
@@ -196,37 +196,6 @@ Gravity Bridge, channel-83, [gravity16vmp...4ag](https://www.mintscan.io/gravity
 
 Ixo, channel-4, [ixo1evdj...z0t](https://www.mintscan.io/ixo/account/ixo1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt0t7z0t), Osmosis , channel-38, [osmo1...zvw](https://www.mintscan.io/osmosis/account/osmo14uyfxlv00lj0qhcwt7vms2rsf7kxuld7umtzvw)
 
-Ixo, channel-11, [ixo1evdj...z0t](https://www.mintscan.io/ixo/account/ixo1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt0t7z0t), Sifchain , channel-15, [sif14uyf...y4h](https://www.mintscan.io/sifchain/account/sif14uyfxlv00lj0qhcwt7vms2rsf7kxuld73ahy4h)
-
----------------- 
-
-### _Juno_ 
-
-Juno, channel-0, [juno1evdj...vy](https://www.mintscan.io/juno/account/juno1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptxvrtvy), Osmosis, channel-42, [osmo1evdj...qa2](https://www.mintscan.io/osmosis/account/osmo1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptc9nqa2)
-
-Juno, channel-1, [juno1evdj...vy](https://www.mintscan.io/juno/account/juno1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptxvrtvy), Cosmos, channel-207, [cosmos1evdj...stc](https://www.mintscan.io/cosmos/account/cosmos1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpts7qstc)
-
-Juno, channel-5, [juno16vmp...klu](https://www.mintscan.io/juno/account/juno16vmp7sz28pnvgz6f3zm6q93y39jsd33az7xklu), Sifchain , channel-14, [sif16vmp...mht](https://www.mintscan.io/sifchain/account/sif16vmp7sz28pnvgz6f3zm6q93y39jsd33a332mht)
-
-Juno, channel-9, [juno16vmp...klu](https://www.mintscan.io/juno/account/juno16vmp7sz28pnvgz6f3zm6q93y39jsd33az7xklu), E-Money , channel-15, [emoney1evdj...yu9](https://www.mintscan.io/emoney/account/emoney1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptla6yu9)
-
-Juno, channel-20, [juno16vmp...klu](https://www.mintscan.io/juno/account/juno16vmp7sz28pnvgz6f3zm6q93y39jsd33az7xklu), Stargaze , channel-5, [stars1evdj...dqf](https://www.mintscan.io/stargaze/account/stars1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptyzhdqf)
-
-Juno, channel-31, [juno1evdj...vy](https://www.mintscan.io/juno/account/juno1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptxvrtvy), Gravity Bridge, channel-8, [gravity1evdj...gws](https://www.mintscan.io/gravity-bridge/account/gravity1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt5wjgws)
-
-Juno, channel-47, [juno1evdj...vy](https://www.mintscan.io/juno/account/juno1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptxvrtvy), Osmosis, channel-169, [osmo1evdj...qa2](https://www.mintscan.io/osmosis/account/osmo1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptc9nqa2), CW20
-
-Juno, channel-50, [juno1evdj...vy](https://www.mintscan.io/juno/account/juno1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptxvrtvy), Juno , channel-50, [juno1evdj...tvy](https://www.mintscan.io/juno/account/juno1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptxvrtvy)
-
-Juno, channel-58, [juno1evdj...vy](https://www.mintscan.io/juno/account/juno1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptxvrtvy), Ki Chain, channel-8, [ki1evdj...l0v](https://www.mintscan.io/ki-chain/account/ki1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpn3l0v)
-
-Juno, channel-71, [juno16vmp...klu](https://www.mintscan.io/juno/account/juno16vmp7sz28pnvgz6f3zm6q93y39jsd33az7xklu), Axelar , channel-4, [axelar16vmp...9np](https://www.mintscan.io/axelar/account/axelar16vmp7sz28pnvgz6f3zm6q93y39jsd33aszn9np)
-
-Juno, channel-87, [juno16vmp...klu](https://www.mintscan.io/juno/account/juno16vmp7sz28pnvgz6f3zm6q93y39jsd33az7xklu), Kujira , channel-1, [kujira1evdj...gxj](https://www.mintscan.io/kujira/account/kujira1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpkzgxj)
-
-Juno, channel-97, [juno16vmp...klu](https://www.mintscan.io/juno/account/juno16vmp7sz28pnvgz6f3zm6q93y39jsd33az7xklu), Kujira , channel-31, [kujira1evdj...gxj](https://www.mintscan.io/kujira/account/kujira1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpkzgxj), CW20
-
-Juno , channel-164, [juno16vmp...xklu](https://www.mintscan.io/juno/account/juno16vmp7sz28pnvgz6f3zm6q93y39jsd33az7xklu), Teritori , channel-11, [tori1evdj...esg...2hk](https://www.mintscan.io/teritori/account/tori14uyfxlv00lj0qhcwt7vms2rsf7kxuld7k50mpv)
 
 ---------------- 
 
