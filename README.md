@@ -4,10 +4,10 @@ Our relayer infra is selfhosted with gigabyte fiber connection. We are running f
 
 ## Server
 
-One Intel(R) Xeon(R) CPU E5-2650 (12C/24T)v4 @ 2.20GHz, 96GB ECC RAM, 2X1TB + 1X2TB M2 Nvme for RPC, 4X1TB SSD for services  
-One Intel(R) Xeon(R) Silver 4214 CPU @ 2.20GHz, 288GB ECC RAM, 2 X ASUS Hyper M.2 x16 Gen 4, 8X1TB + 1X2TB M2 Nvme for rpc, 4X1TB SSD for services  
+One Intel(R) Xeon(R) CPU E5-2650 (12C/24T) v4 @ 2.20GHz, 96GB ECC RAM, 2X1TB + 1X2TB M2 Nvme for RPC, 4X1TB SSD for services  
+One Intel(R) Xeon(R) Silver 4214 (12C/24T) CPU @ 2.20GHz, 288GB ECC RAM, 2 X ASUS Hyper M.2 x16 Gen 4, 8X1TB + 1X2TB M2 Nvme for rpc, 4X1TB SSD for services  
 
-One AMD Ryzen 9 5900X @ 3,7 Ghz, 128GB ECC RAM, 1 X ASUS Hyper M.2 X16 PCIe 3.0, 6X1TB M2 Nvme for rpc, 1TB SSD for services
+One AMD Ryzen 9 5900X (12C/24T) @ 3,7 Ghz, 128GB ECC RAM, 1 X ASUS Hyper M.2 X16 PCIe 3.0, 6X1TB M2 Nvme for rpc, 1TB SSD for services
 
 
 ## Relayer conf  
@@ -21,29 +21,28 @@ One AMD Ryzen 9 5900X @ 3,7 Ghz, 128GB ECC RAM, 1 X ASUS Hyper M.2 X16 PCIe 3.0,
 ## Supported chains  
 [Axelar](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#axelar)  
 [Band](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#band)  
-[Bitcanna](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#bitcanna)
-[Chihuahua](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#chihuahua) 
-[Coreum](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#coreum) 
+[Bitcanna](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#bitcanna)  
+[Chihuahua](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#chihuahua)   
+[Coreum](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#coreum)  
 [Cosmos Hub](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#cosmos-hub)  
 [Decentr](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#decentr)  
 [Desmos](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#desmos)  
 [Emoney](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#emoney)  
-[Fetch](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#fetch)
-[Gitopia](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#gitopia) 
+[Fetch](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#fetch)  
+[Gitopia](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#gitopia)  
 [Gravity Bridge](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#gravity-bridge)  
 [Ixo](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#ixo)  
-[Juno](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#juno)  
 [Kava](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#kava)  
 [Ki Chain](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#ki-chain)  
-[Kujira](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#kujira)
-[Kyve](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#kyve)
-[Lum](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#lum)
-[Noble](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#noble)
-[Osmosis](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#osmosis)
-[Passage](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#passage)
-[Provenance](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#provenance)
-[Quasar](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#quasar)
-[Quicksilver](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#quicksilver) 
+[Kujira](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#kujira)  
+[Kyve](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#kyve)  
+[Lum](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#lum)  
+[Noble](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#noble)  
+[Osmosis](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#osmosis)  
+[Passage](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#passage)  
+[Provenance](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#provenance)  
+[Quasar](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#quasar)  
+[Quicksilver](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#quicksilver)  
 [Stargaze](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#stargaze)  
 [Teritori](https://github.com/Inter-Blockchain-Service/Relayers/blob/main/README.md#teritori)   
  
