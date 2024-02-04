@@ -1,6 +1,6 @@
 # Relayers
 
-Our relayer infra is selfhosted with gigabyte fiber connection. We are running four instances of hermes which support 22 chains. Our RPC are host on three baremetal servers. You will find in this repository a description of our servers, the conf of our relayers and the set of channels that we support.
+Our relayer infra is selfhosted with gigabyte fiber connection. We are running four instances of hermes which support 26 chains. Our RPC are hosted on four baremetal servers. You will find in this repository a description of our servers, the conf of our relayers and the set of channels that we support.
 
 ## Server
 
@@ -54,21 +54,31 @@ One AMD Ryzen 5 3600 (6C/12T) @ 3,6 Ghz, 128GB ECC RAM,  2X1TB M2 Nvme RAID0, 2*
  
 Axelar, channel-2, [axelar16vmp...9np](https://www.mintscan.io/axelar/account/axelar16vmp7sz28pnvgz6f3zm6q93y39jsd33aszn9np), Cosmos Hub, channel-293, [cosmos16vmp...dcq](https://www.mintscan.io/cosmos/account/cosmos16vmp7sz28pnvgz6f3zm6q93y39jsd33a5v9dcq)  
 
-Axelar, channel-3, [axelar16vmp...9np](https://www.mintscan.io/axelar/account/axelar16vmp7sz28pnvgz6f3zm6q93y39jsd33aszn9np), Osmosis, channel-208, [osmo16vmp...awj](https://www.mintscan.io/osmosis/account/osmo16vmp7sz28pnvgz6f3zm6q93y39jsd33auhkawj)  
+Axelar, channel-2, [axelar14uyp...63a](https://www.mintscan.io/axelar/account/axelar14uyfxlv00lj0qhcwt7vms2rsf7kxuld7sww63a), Cosmos Hub, channel-293, [cosmos14uy...j6u](https://www.mintscan.io/cosmos/account/cosmos14uyfxlv00lj0qhcwt7vms2rsf7kxuld75qcj6u)  
 
-Axelar, channel-4, [axelar16vmp...9np](https://www.mintscan.io/axelar/account/axelar16vmp7sz28pnvgz6f3zm6q93y39jsd33aszn9np), Juno, channel-71, [juno16vmp...klu](https://www.mintscan.io/juno/account/juno16vmp7sz28pnvgz6f3zm6q93y39jsd33az7xklu)  
-
-Axelar, channel-6, [axelar16vmp...9np](https://www.mintscan.io/axelar/account/axelar16vmp7sz28pnvgz6f3zm6q93y39jsd33aszn9np), E Money, channel-26, [emoney1evdj...yu9](https://www.mintscan.io/emoney/account/emoney1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptla6yu9)  
+Axelar, channel-3, [axelar16vmp...9np](https://www.mintscan.io/axelar/account/axelar16vmp7sz28pnvgz6f3zm6q93y39jsd33aszn9np), Osmosis, channel-208, [osmo16vmp...awj](https://www.mintscan.io/osmosis/account/osmo16vmp7sz28pnvgz6f3zm6q93y39jsd33auhkawj) 
 
 Axelar, channel-14, [axelar16vmp...9np](https://www.mintscan.io/axelar/account/axelar16vmp7sz28pnvgz6f3zm6q93y39jsd33aszn9np), Kujira, channel-9, [kujira1evdj...gxj](https://www.mintscan.io/kujira/account/kujira1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpkzgxj)  
-
-Axelar, channel-15, [axelar1evdj...cqe](https://www.mintscan.io/axelar/account/axelar1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt5skcqe), Bitcanna Chain, channel-32, [bcna1evdj...3r2](https://www.mintscan.io/bitcanna/account/bcna1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt2ws3r2)  
 
 Axelar, channel-17, [axelar1evdj...cqe](https://www.mintscan.io/axelar/account/axelar1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt5skcqe), Ki Chain, channel-19, [ki1evdj...l0v](https://www.mintscan.io/ki-chain/account/ki1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpn3l0v)  
 
 Axelar, channel-18, [axelar16vmp...9np](https://www.mintscan.io/axelar/account/axelar16vmp7sz28pnvgz6f3zm6q93y39jsd33aszn9np), Stargaze, channel-50, [stars1evdj...dqf](https://www.mintscan.io/stargaze/account/stars1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptyzhdqf)
 
 Axelar, channel-21, [axelar1evdj...cqe](https://www.mintscan.io/axelar/account/axelar1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt5skcqe), Fetch AI, channel-14, [fetch1evdj...5f0](https://www.mintscan.io/fetchai/account/fetch1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptrrf5f0) 
+
+Axelar, channel-32, [axelar1evdj...cqe](https://www.mintscan.io/axelar/account/axelar1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt5skcqe), Bitcanna, channel-15, [bcna1evdj...3r2](https://www.mintscan.io/bitcanna/address/bcna1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt2ws3r2) 
+
+Axelar, channel-75, [axelar16vmp...9np](https://www.mintscan.io/axelar/account/axelar16vmp7sz28pnvgz6f3zm6q93y39jsd33aszn9np), Kyve, channel-1, [kyve1evdj...xqu](https://www.mintscan.io/kyve/account/kyve1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt8sdxqu)
+
+Axelar, channel-114, [axelar16vmp...9np](https://www.mintscan.io/axelar/account/axelar16vmp7sz28pnvgz6f3zm6q93y39jsd33aszn9np), Ixo, channel-23, [ixo14uy...q70](https://www.mintscan.io/ixo/account/ixo14uyfxlv00lj0qhcwt7vms2rsf7kxuld7t4xq70)
+
+Axelar, channel-116, [axelar14uy...63a](https://www.mintscan.io/axelar/account/axelar14uyfxlv00lj0qhcwt7vms2rsf7kxuld7sww63a), Provenance, channel-9, [pb16vmp...g4u](https://www.mintscan.io/provenance/address/pb16vmp7sz28pnvgz6f3zm6q93y39jsd33aazwg4u) 
+
+Axelar, channel-120, [axelar16vmp...9np](https://www.mintscan.io/axelar/account/axelar16vmp7sz28pnvgz6f3zm6q93y39jsd33aszn9np), Coreum, channel-6, [core14uy...fa8](https://www.mintscan.io/ixo/account/ixo14uyfxlv00lj0qhcwt7vms2rsf7kxuld7t4xq70)
+
+Axelar, channel-122, [axelar16vmp...9np](https://www.mintscan.io/axelar/account/axelar16vmp7sz28pnvgz6f3zm6q93y39jsd33aszn9np), teritori-1, channel-61, [tori14uy...mpv](https://www.mintscan.io/teritori/account/tori14uyfxlv00lj0qhcwt7vms2rsf7kxuld7k50mpv)
+
+Axelar, channel-153, [axelar1evdj...cqe](https://www.mintscan.io/axelar/account/axelar1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt5skcqe), Chihuahua, channel-78, [chihuahua1evdj...726](https://www.mintscan.io/bitcanna/address/bcna1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt2ws3r2) 
 
 ----------------  
 
@@ -77,6 +87,10 @@ Axelar, channel-21, [axelar1evdj...cqe](https://www.mintscan.io/axelar/account/a
 Band , channel-12, [band1evdj...jns](https://www.mintscan.io/band/account/band1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptf3qjns), Desmos, channel-1, [desmos1evdj...quq](https://www.mintscan.io/desmos/account/desmos1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptyxdquq), ibc-profiles   
 
 Band , channel-83, [band1evdj...jns](https://www.mintscan.io/band/account/band1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptf3qjns), Osmosis, channel-148, [osmo1tdl8...ej9](https://www.mintscan.io/osmosis/account/osmo1tdl8wlqx0w8laeqytxx9rphfcu7cm2cyqahej9)  
+
+Band , channel-157, [band1evdj...jns](https://www.mintscan.io/band/account/band1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptf3qjns), Desmos, channel-148, [osmo1tdl8...ej9](https://www.mintscan.io/desmos/account/desmos1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptyxdquq)  
+
+Band , channel-159, [band1evdj...jns](https://www.mintscan.io/band/account/band1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptf3qjns), Coreum, channel-20, [core16vmp...klm](https://www.mintscan.io/coreum/account/core16vmp7sz28pnvgz6f3zm6q93y39jsd33a8zaklm)  
 
 ---------------- 
 
@@ -88,8 +102,6 @@ Bitcanna, channel-3, [bcna1evdj...3r2](https://www.mintscan.io/bitcanna/account/
 
 Bitcanna , channel-8, [bcna1evdj...3r2](https://www.mintscan.io/bitcanna/account/bcna1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt2ws3r2), Gravity Bridge , channel-0, [gravity1evdj...gws](https://www.mintscan.io/gravity-bridge/account/gravity1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt5wjgws)
 
-Bitcanna , channel-10, [bcna1evdj...3r2](https://www.mintscan.io/bitcanna/account/bcna1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt2ws3r2), Juno , channel-50, [juno1evdj...tvy](https://www.mintscan.io/juno/account/juno1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptxvrtvy)
-
 Bitcanna , channel-15, [bcna1evdj...3r2](https://www.mintscan.io/bitcanna/account/bcna1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt2ws3r2), Axelar , channel-32, [axelar1evdj...cqe](https://www.mintscan.io/axelar/account/axelar1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt5skcqe)
 
 ----------------
@@ -100,9 +112,29 @@ Bitcanna , channel-15, [bcna1evdj...3r2](https://www.mintscan.io/bitcanna/accoun
 
 ### _Chihuahua_
 
+Chihuahua , channel-7, [chihuahua1evdj...726](https://www.mintscan.io/chihuahua/address/chihuahua1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptntd726), Osmosis , channel-113, [osmo1tdl...ej9](https://www.mintscan.io/osmosis/account/osmo1tdl8wlqx0w8laeqytxx9rphfcu7cm2cyqahej9)
+
+Chihuahua , channel-78, [chihuahua1evdj...726](https://www.mintscan.io/chihuahua/address/chihuahua1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptntd726), Axelar , channel-135, [axelar1evd...cqe](https://www.mintscan.io/axelar/account/axelar1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt5skcqe)
+
 ----------------
 
 ### _Coreum_
+
+Coreum , channel-2, [core14uy...fa8](https://www.mintscan.io/coreum/address/core14uyfxlv00lj0qhcwt7vms2rsf7kxuld78wqfa8), Osmosis , channel-2188, [osmo16vm...awj](https://www.mintscan.io/osmosis/address/osmo16vmp7sz28pnvgz6f3zm6q93y39jsd33auhkawj)
+
+Coreum , channel-6, [core14uy...fa8](https://www.mintscan.io/coreum/address/core14uyfxlv00lj0qhcwt7vms2rsf7kxuld78wqfa8), Axelar , channel-120, [axelar16vmd...9np](https://www.mintscan.io/axelar/address/axelar16vmp7sz28pnvgz6f3zm6q93y39jsd33aszn9np)
+
+Coreum , channel-7, [core16vm...klm](https://www.mintscan.io/coreum/address/core16vmp7sz28pnvgz6f3zm6q93y39jsd33a8zaklm), Gravity , channel-142, [gravity16vm...4ag](https://www.mintscan.io/gravity-bridge/address/gravity16vmp7sz28pnvgz6f3zm6q93y39jsd33asuh4ag)
+
+Coreum , channel-9, [core14uy...fa8](https://www.mintscan.io/coreum/address/core14uyfxlv00lj0qhcwt7vms2rsf7kxuld78wqfa8), Cosmoshub , channel-660, [cosmos16vm...dcq](https://www.mintscan.io/cosmos/address/cosmos16vmp7sz28pnvgz6f3zm6q93y39jsd33a5v9dcq)
+
+Coreum , channel-17, [core14uy...fa8](https://www.mintscan.io/coreum/address/core14uyfxlv00lj0qhcwt7vms2rsf7kxuld78wqfa8), Kujira , channel-122, [axelar16vmd...9np](https://finder.kujira.network/kaiyo-1/address/kujira1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpkzgxj)
+
+Coreum , channel-18, [core14uy...fa8](https://www.mintscan.io/coreum/address/core14uyfxlv00lj0qhcwt7vms2rsf7kxuld78wqfa8), Kava , channel-142, [kava14uy...0vm](https://www.mintscan.io/kava/address/kava14uyfxlv00lj0qhcwt7vms2rsf7kxuld7g4v0vm)
+
+Coreum , channel-19, [core16vm...klm](https://www.mintscan.io/coreum/address/core16vmp7sz28pnvgz6f3zm6q93y39jsd33a8zaklm), Noble , channel-49, [noble16vm...9qw](https://www.mintscan.io/noble/address/noble16vmp7sz28pnvgz6f3zm6q93y39jsd33au0s9qw)
+
+Coreum , channel-20, [core16vm...klm](https://www.mintscan.io/coreum/address/core16vmp7sz28pnvgz6f3zm6q93y39jsd33a8zaklm), Band , channel-159, [band11evd...jns](https://www.mintscan.io/band/address/band1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptf3qjns)
 
 ---------------- 
 
@@ -110,13 +142,13 @@ Bitcanna , channel-15, [bcna1evdj...3r2](https://www.mintscan.io/bitcanna/accoun
 
 Cosmos, channel-141, [cosmos14uyf...j6u](https://www.mintscan.io/cosmos/account/cosmos14uyfxlv00lj0qhcwt7vms2rsf7kxuld75qcj6u), Osmosis , channel-0, [osmo14uyf...zvw](https://www.mintscan.io/osmosis/account/osmo14uyfxlv00lj0qhcwt7vms2rsf7kxuld7umtzvw)
 
-Cosmos, channel-192, [cosmos14uyf...j6u](https://www.mintscan.io/cosmos/account/cosmos14uyfxlv00lj0qhcwt7vms2rsf7kxuld75qcj6u), Sifchain , channel-0, [sif14uyf...y4h](https://www.mintscan.io/sifchain/account/sif14uyfxlv00lj0qhcwt7vms2rsf7kxuld73ahy4h)
-
-Cosmos, channel-207, [cosmos1evdj...stc](https://www.mintscan.io/cosmos/account/cosmos1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpts7qstc), Juno , channel-1, [juno1evdj...9np](https://www.mintscan.io/juno/account/juno1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptxvrtvy)
+Cosmos, channel-204, [cosmos14uyf...j6u](https://www.mintscan.io/cosmos/account/cosmos16vmp7sz28pnvgz6f3zm6q93y39jsd33a5v9dcq), Ixo , channel-1, [ixo14uy...q70](https://www.mintscan.io/ixo/account/ixo14uyfxlv00lj0qhcwt7vms2rsf7kxuld7t4xq70)
 
 Cosmos, channel-223, [cosmos1evdj...stc](https://www.mintscan.io/cosmos/account/cosmos1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpts7qstc), Ki Chain , channel-1, [ki1evdj...l0v](https://www.mintscan.io/ki-chain/account/ki1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpn3l0v)
 
 Cosmos, channel-232, [cosmos1evdj...stc](https://www.mintscan.io/cosmos/account/cosmos1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpts7qstc), Bitcanna , channel-3, [bcna1evdj...3r2](https://www.mintscan.io/bitcanna/account/bcna1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt2ws3r2)
+
+Cosmos, channel-256, [cosmos1evdj...stc](https://www.mintscan.io/cosmos/account/cosmos1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpts7qstc), Fetch AI , channel-3, [fetch1evd...5f0](https://www.mintscan.io/fetchai/account/fetch1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptrrf5f0)
 
 Cosmos, channel-277, [cosmos1evdj...stc](https://www.mintscan.io/cosmos/account/cosmos1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpts7qstc), Kava , channel-0, [kava1evdj...9np](https://www.mintscan.io/kava/account/kava1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptvt5dal)
 
@@ -124,11 +156,19 @@ Cosmos, channel-281, [cosmos14uyf...j6u](https://www.mintscan.io/cosmos/account/
 
 Cosmos, channel-293, [cosmos16vmp...dcq](https://www.mintscan.io/cosmos/account/cosmos16vmp7sz28pnvgz6f3zm6q93y39jsd33a5v9dcq), Axelar , channel-2, [axelar16vmp...9np](https://www.mintscan.io/axelar/account/axelar16vmp7sz28pnvgz6f3zm6q93y39jsd33aszn9np)
 
+Cosmos, channel-293, [cosmos14uy...j6u](https://www.mintscan.io/cosmos/account/cosmos14uyfxlv00lj0qhcwt7vms2rsf7kxuld75qcj6u), Axelar , channel-2, [axelar14uy...63a](https://www.mintscan.io/axelar/account/axelar14uyfxlv00lj0qhcwt7vms2rsf7kxuld7sww63a)
+
 Cosmos, channel-314, [cosmos14uyf...j6u](https://www.mintscan.io/cosmos/account/cosmos14uyfxlv00lj0qhcwt7vms2rsf7kxuld75qcj6u), Provenance , channel-6, [pb16vmp...g4u](https://www.mintscan.io/provenance/account/pb16vmp7sz28pnvgz6f3zm6q93y39jsd33aazwg4u)
 
 Cosmos, channel-343, [cosmos16vmp...dcq](https://www.mintscan.io/cosmos/account/cosmos16vmp7sz28pnvgz6f3zm6q93y39jsd33a5v9dcq), Kujira , channel-0, [kujira16vmp...9np](https://www.mintscan.io/kujira/account/kujira1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpkzgxj)
 
 Cosmos , channel-431, [cosmos16vmp...9dcq](https://www.mintscan.io/cosmos/account/cosmos16vmp7sz28pnvgz6f3zm6q93y39jsd33a5v9dcq),Teritori , channel-10, [tori1evdj...esg...2hk](https://www.mintscan.io/teritori/account/tori14uyfxlv00lj0qhcwt7vms2rsf7kxuld7k50mpv)
+
+Cosmos, channel-467, [cosmos14uyf...j6u](https://www.mintscan.io/cosmos/account/cosmos14uyfxlv00lj0qhcwt7vms2rsf7kxuld75qcj6u), Quicksilver , channel-1, [quick14uy...qrw](https://www.mintscan.io/quicksilver/account/quick14uyfxlv00lj0qhcwt7vms2rsf7kxuld7lygqrw)
+
+Cosmos, channel-660, [cosmos14uyf...j6u](https://www.mintscan.io/cosmos/account/cosmos16vmp7sz28pnvgz6f3zm6q93y39jsd33a5v9dcq), Coreum , channel-9, [core14uy...fa8](https://www.mintscan.io/coreum/account/core14uyfxlv00lj0qhcwt7vms2rsf7kxuld78wqfa8)
+
+Cosmos, channel-730, [cosmos14uyf...j6u](https://www.mintscan.io/cosmos/account/cosmos14uyfxlv00lj0qhcwt7vms2rsf7kxuld75qcj6u), Stargaze , channel-239, [stars14uy...03d](https://www.mintscan.io/quicksilver/stargaze/stars14uyfxlv00lj0qhcwt7vms2rsf7kxuld7qu003d)
 
 ---------------- 
 
@@ -142,9 +182,11 @@ Decentr, channel-2, [decentr1evdj...y2s](https://ping.pub/decentr/account/decent
 
 ### _Desmos_ 
 
-Desmos, channel-1, [desmos1evdj...quq](https://www.mintscan.io/desmos/account/desmos1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptyxdquq), Band , channel-12, [band1evdj...jns](https://www.mintscan.io/band/account/band1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptf3qjns), oracle
+Desmos, channel-1, [desmos1evdj...quq](https://www.mintscan.io/desmos/account/desmos1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptyxdquq), Band , channel-157, [band1evdj...jns](https://www.mintscan.io/band/account/band1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptf3qjns), oracle
 
-Desmos, channel-2, [desmos1evdj...quq](https://www.mintscan.io/desmos/account/desmos1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptyxdquq), Osmosis , channel-12, [osmo1tdl8...ej9](https://www.mintscan.io/osmosis/account/osmo1tdl8wlqx0w8laeqytxx9rphfcu7cm2cyqahej9)
+Desmos, channel-2, [desmos1evdj...quq](https://www.mintscan.io/desmos/account/desmos1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptyxdquq), Osmosis , channel-135, [osmo1tdl8...ej9](https://www.mintscan.io/osmosis/account/osmo1tdl8wlqx0w8laeqytxx9rphfcu7cm2cyqahej9)
+
+Desmos, channel-32, [desmos1evdj...quq](https://www.mintscan.io/desmos/account/desmos1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptyxdquq), Band , channel-12, [osmo1tdl8...ej9](https://www.mintscan.io/band/account/band1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptf3qjns)
 
 ---------------- 
 
@@ -166,7 +208,15 @@ E-Money, channel-27, [emoney1evdj...yu9](https://www.mintscan.io/emoney/account/
 
 Fetch, channel-10, [fetch1evdj...5f0](https://www.mintscan.io/fetchai/account/fetch1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptrrf5f0), Osmosis , channel-229, [osmo1evdj...qa2](https://www.mintscan.io/osmosis/account/osmo1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptc9nqa2)
 
-Fetch, channel-10, [fetch1evdj...5f0](https://www.mintscan.io/fetchai/account/fetch1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptrrf5f0), Axelar , channel-21, [axelar1evdj...cqe](https://www.mintscan.io/axelar/account/axelar1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt5skcqe)
+Fetch, channel-14, [fetch1evdj...5f0](https://www.mintscan.io/fetchai/account/fetch1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptrrf5f0), Axelar , channel-21, [axelar1evdj...cqe](https://www.mintscan.io/axelar/account/axelar1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt5skcqe)
+
+Fetch, channel-16, [fetch1evdj...5f0](https://www.mintscan.io/fetchai/account/fetch1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptrrf5f0), Cosmos Hub , channel-526, [cosmos1evd...stc](https://www.mintscan.io/cosmos/account/cosmos1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpts7qstc)
+
+---------------- 
+
+### _Gitopia_ 
+
+Gitopia, channel-0, [gitopia1evd...8ym](https://gitopia.exploreme.pro/account/gitopia1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptwx88ym), Osmosis , channel-781, [osmo1evd...qa2](https://www.mintscan.io/osmosis/account/osmo1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptc9nqa2)
 
 ---------------- 
 
@@ -184,20 +234,27 @@ Gravity Bridge, channel-17, [gravity14uyf...2l5](https://www.mintscan.io/gravity
 
 Gravity Bridge, channel-37, [gravity1evdj...gws](https://www.mintscan.io/gravity-bridge/account/gravity1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt5wjgws), Ki Chain , channel-11, [ki1evdj...l0v](https://www.mintscan.io/ki-chain/account/ki1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpn3l0v)
 
-Gravity Bridge, channel-53, [gravity16vmp...4ag](https://www.mintscan.io/gravity-bridge/account/gravity16vmp7sz28pnvgz6f3zm6q93y39jsd33asuh4ag), Rizon , channel-4, [rizon1evdj...p8q](https://www.mintscan.io/rizon/account/rizon1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptnrup8q)
-
 Gravity Bridge, channel-58, [gravity14uyf...2l5](https://www.mintscan.io/gravity-bridge/account/gravity14uyfxlv00lj0qhcwt7vms2rsf7kxuld7ss22l5), Decentr , channel-2, [decentr1evdj...y2s](https://ping.pub/decentr/account/decentr1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptmsxy2s)
 
-Gravity Bridge, channel-66, [gravity14uyf...2l5](https://www.mintscan.io/gravity-bridge/account/gravity14uyfxlv00lj0qhcwt7vms2rsf7kxuld7ss22l5), Sifchain , channel-60, [sif14uyf...y4h](https://www.mintscan.io/sifchain/account/sif14uyfxlv00lj0qhcwt7vms2rsf7kxuld73ahy4h)
-
 Gravity Bridge, channel-83, [gravity16vmp...4ag](https://www.mintscan.io/gravity-bridge/account/gravity16vmp7sz28pnvgz6f3zm6q93y39jsd33asuh4ag), Kujira , channel-11, [kujira14uyf...2hk](https://www.mintscan.io/kujira/account/kujira14uyfxlv00lj0qhcwt7vms2rsf7kxuld79g62hk)
+
+Gravity Bridge, channel-107, [gravity16vmp...4ag](https://www.mintscan.io/gravity-bridge/account/gravity16vmp7sz28pnvgz6f3zm6q93y39jsd33asuh4ag), Kujira , channel-50, [kujira14uyf...2hk](https://www.mintscan.io/kujira/account/kujira14uyfxlv00lj0qhcwt7vms2rsf7kxuld79g62hk)
+
+Gravity Bridge, channel-142, [gravity16vmp...4ag](https://www.mintscan.io/gravity-bridge/account/gravity16vmp7sz28pnvgz6f3zm6q93y39jsd33asuh4ag), Coreum , channel-7, [core16vm...klm](https://www.mintscan.io/coreum/account/core16vmp7sz28pnvgz6f3zm6q93y39jsd33a8zaklm)
 
 ---------------- 
 
 ### _Ixo_ 
 
+Ixo, channel-1, [ixo14uy...q70](https://www.mintscan.io/ixo/account/ixo14uyfxlv00lj0qhcwt7vms2rsf7kxuld7t4xq70), Cosmos Hub , channel-204, [cosmos16vm...dcq](https://www.mintscan.io/cosmos/account/cosmos16vmp7sz28pnvgz6f3zm6q93y39jsd33a5v9dcq)
+
 Ixo, channel-4, [ixo1evdj...z0t](https://www.mintscan.io/ixo/account/ixo1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt0t7z0t), Osmosis , channel-38, [osmo1...zvw](https://www.mintscan.io/osmosis/account/osmo14uyfxlv00lj0qhcwt7vms2rsf7kxuld7umtzvw)
 
+Ixo, channel-23, [ixo14uy...q70](https://www.mintscan.io/ixo/account/ixo14uyfxlv00lj0qhcwt7vms2rsf7kxuld7t4xq70), Axelar , channel-114, [axelar16vm...9np](https://www.mintscan.io/axelar/account/axelar16vmp7sz28pnvgz6f3zm6q93y39jsd33aszn9np)
+
+Ixo, channel-25, [ixo14uy...q70](https://www.mintscan.io/ixo/account/ixo14uyfxlv00lj0qhcwt7vms2rsf7kxuld7t4xq70), Kava , channel-128, [kava14uy...0vm...9np](https://www.mintscan.io/kava/account/kava14uyfxlv00lj0qhcwt7vms2rsf7kxuld7g4v0vm)
+
+Ixo, channel-26, [ixo1evdj...z0t](https://www.mintscan.io/ixo/account/ixo1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt0t7z0t), Noble , channel-15, [noble14uy...6zj](https://www.mintscan.io/noble/account/noble14uyfxlv00lj0qhcwt7vms2rsf7kxuld7urd6zj)
 
 ---------------- 
 
@@ -207,6 +264,14 @@ Kava, channel-0, [kava1evdj...dal](https://www.mintscan.io/kava/account/kava1evd
 
 Kava, channel-1, [kava1evdj...dal](https://www.mintscan.io/kava/account/kava1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptvt5dal), Osmosis, channel-143, [osmo1evdj...qa2](https://www.mintscan.io/osmosis/account/osmo1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptc9nqa2)
 
+Kava, channel-116, [kava16vm...sw8](https://www.mintscan.io/kava/account/kava16vmp7sz28pnvgz6f3zm6q93y39jsd33age3sw8), Kujira, channel-95, [kujira14uy...2hk](https://finder.kujira.network/kaiyo-1/address/kujira14uyfxlv00lj0qhcwt7vms2rsf7kxuld79g62hk)
+
+Kava, channel-116, [kava14uy...0vm](https://www.mintscan.io/kava/account/kava14uyfxlv00lj0qhcwt7vms2rsf7kxuld7g4v0vm), Kujira, channel-95, [kujira1evd...gxj](https://finder.kujira.network/kaiyo-1/address/kujira1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpkzgxj)
+
+Kava, channel-128, [kava14uy...0vm](https://www.mintscan.io/kava/account/kava14uyfxlv00lj0qhcwt7vms2rsf7kxuld7g4v0vm), Ixo, channel-25,[ixo14uy...q70](https://www.mintscan.io/ixo/account/ixo14uyfxlv00lj0qhcwt7vms2rsf7kxuld7t4xq70)
+
+Kava, channel-142, [kava14uy...0vm](https://www.mintscan.io/kava/account/kava14uyfxlv00lj0qhcwt7vms2rsf7kxuld7g4v0vm), Coreum, channel-18, [core14uy...fa8](https://www.mintscan.io/coreum/account/core14uyfxlv00lj0qhcwt7vms2rsf7kxuld78wqfa8)
+
 ---------------- 
 
 ### _Ki Chain_ 
@@ -214,10 +279,6 @@ Kava, channel-1, [kava1evdj...dal](https://www.mintscan.io/kava/account/kava1evd
 Ki chain, channel-0, [ki1evdj...0v](https://www.mintscan.io/ki-chain/account/ki1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpn3l0v), Osmosis, channel-77, [osmo1evdj...qa2](https://www.mintscan.io/osmosis/account/osmo1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptc9nqa2)
 
 Ki chain, channel-1, [ki1evdj...0v](https://www.mintscan.io/ki-chain/account/ki1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpn3l0v), Cosmos, channel-223, [cosmos1evdj...stc](https://www.mintscan.io/cosmos/account/cosmos1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpts7qstc)
-
-Ki chain, channel-7, [ki1evdj...0v](https://www.mintscan.io/ki-chain/account/ki1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpn3l0v), Sifchain, channel-40, [sif1evdj...xyn](https://www.mintscan.io/sifchain/account/sif1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt4r0xyn)
-
-Ki chain, channel-8, [ki1evdj...0v](https://www.mintscan.io/ki-chain/account/ki1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpn3l0v), Juno, channel-58, [juno1evdj...vy](https://www.mintscan.io/juno/account/juno1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptxvrtvy)
 
 Ki chain, channel-11, [ki1evdj...0v](https://www.mintscan.io/ki-chain/account/ki1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpn3l0v), Gravity Bridge, channel-37, [gravity1evdj...gws](https://www.mintscan.io/gravity-bridge/account/gravity1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt5wjgws)
 
@@ -227,9 +288,7 @@ Ki chain, channel-19, [ki1evdj...0v](https://www.mintscan.io/ki-chain/account/ki
 
 ### _Kujira_ 
 
-Kujira, channel-0, [kujira1evdj...gxj](https://www.mintscan.io/kujira/account/kujira1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpkzgxj), Cosmos, channel-343, [cosmos16vmp...dcq](https://www.mintscan.io/cosmos/account/cosmos16vmp7sz28pnvgz6f3zm6q93y39jsd33a5v9dcq)
-
-Kujira, channel-1, [kujira1evdj...gxj](https://www.mintscan.io/kujira/account/kujira1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpkzgxj), Juno, channel-87, [juno16vmp...klu](https://www.mintscan.io/juno/account/juno16vmp7sz28pnvgz6f3zm6q93y39jsd33az7xklu)
+Kujira, channel-0, [kujira1evdj...gxj](https://finder.kujira.network/kaiyo-1/address/kujira1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpkzgxj), Cosmos, channel-343, [cosmos16vmp...dcq](https://www.mintscan.io/cosmos/account/cosmos16vmp7sz28pnvgz6f3zm6q93y39jsd33a5v9dcq)
 
 Kujira, channel-3, [kujira14uyf...2hk](https://www.mintscan.io/kujira/account/kujira14uyfxlv00lj0qhcwt7vms2rsf7kxuld79g62hk), Osmosis, channel-259, [osmo1tdl8...ej9](https://www.mintscan.io/osmosis/account/osmo1tdl8wlqx0w8laeqytxx9rphfcu7cm2cyqahej9)
 
